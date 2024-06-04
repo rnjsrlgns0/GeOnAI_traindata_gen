@@ -1,0 +1,126 @@
+{"instruction":"GeOnDT 제품의 문서번호는 무엇입니까?","output":"GeOnDT 제품의 문서번호는 GeOnDT-INT-01입니다.","input":""}
+{"instruction":"GeOnDT 제품의 버전은 무엇입니까?","output":"GeOnDT 제품의 버전은 v2.0입니다.","input":""}
+{"instruction":"GeOnDT 제품설명서의 ID는 무엇입니까?","output":"GeOnDT 제품설명서의 ID는 GeOnDT-INT-01-v2.0입니다.","input":""}
+{"instruction":"GeOnDT 제품설명서는 어떤 내용을 제공합니까?","output":"GeOnDT 제품설명서는 GeOnDT v2.0에 대한 전체적인 설명을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품을 제공하는 회사는 어디입니까?","output":"GeOnDT 제품을 제공하는 회사는 (주)웨이버스입니다.","input":""}
+{"instruction":"웨이버스의 대표이사는 누구입니까?","output":"웨이버스의 대표이사는 김학성입니다.","input":""}
+{"instruction":"웨이버스의 주소는 어디입니까?","output":"웨이버스의 주소는 서울 구로구 디지털로26길 61, 1001호입니다.","input":""}
+{"instruction":"웨이버스의 홈페이지 주소는 무엇입니까?","output":"웨이버스의 홈페이지 주소는 http:\/\/www.wavus.co.kr입니다.","input":""}
+{"instruction":"GeOnDT 제품의 주요 구성 요소는 무엇입니까?","output":"GeOnDT 제품의 주요 구성 요소는 GeOnDT Client, GeOnDT Server, GeOnDT Scheduler, GeOnDT Builder입니다.","input":""}
+{"instruction":"GeOnDT Client는 어떤 역할을 합니까?","output":"GeOnDT Client는 GeOnDT 시스템의 클라이언트 역할을 합니다.","input":""}
+{"instruction":"GeOnDT Server는 어떤 역할을 합니까?","output":"GeOnDT Server는 GeOnDT 시스템의 서버 역할을 합니다.","input":""}
+{"instruction":"GeOnDT Scheduler는 어떤 역할을 합니까?","output":"GeOnDT Scheduler는 GeOnDT 시스템의 스케줄러 역할을 합니다.","input":""}
+{"instruction":"GeOnDT Builder는 어떤 역할을 합니까?","output":"GeOnDT Builder는 GeOnDT 시스템의 빌더 역할을 합니다.","input":""}
+{"instruction":"GeOnDT 제품의 API는 어떤 언어로 제공됩니까?","output":"GeOnDT 제품의 API는 JavaScript 언어로 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 API는 어떤 기능을 제공합니까?","output":"GeOnDT 제품의 API는 GeOnDT Object, Generic App Utility, Geometric Correct, Visual Effect, Core 3D Analysis, Layer Manager, Process Executor, 3D Math 등의 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 렌더링은 어떤 기술을 사용합니까?","output":"GeOnDT 제품의 3D 렌더링은 WebGL 기술을 사용합니다.","input":""}
+{"instruction":"GeOnDT 제품의 주요 기능은 무엇입니까?","output":"GeOnDT 제품의 주요 기능은 3D 분석, 시뮬레이션, 측정, 지형 보기, 프로세스 실행, 네비게이션, 지도 제어, 메시지 처리, 이벤트 리스너 등입니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 분석 기능은 무엇입니까?","output":"GeOnDT 제품의 3D 분석 기능은 Core 3D Analysis입니다.","input":""}
+{"instruction":"GeOnDT 제품의 시뮬레이션 기능은 무엇입니까?","output":"GeOnDT 제품의 시뮬레이션 기능은 Simulation입니다.","input":""}
+{"instruction":"GeOnDT 제품의 측정 기능은 무엇입니까?","output":"GeOnDT 제품의 측정 기능은 Measure입니다.","input":""}
+{"instruction":"GeOnDT 제품의 지형 보기 기능은 무엇입니까?","output":"GeOnDT 제품의 지형 보기 기능은 Terrain입니다.","input":""}
+{"instruction":"GeOnDT 제품의 프로세스 실행 기능은 무엇입니까?","output":"GeOnDT 제품의 프로세스 실행 기능은 Process Executor입니다.","input":""}
+{"instruction":"GeOnDT 제품의 네비게이션 기능은 무엇입니까?","output":"GeOnDT 제품의 네비게이션 기능은 Navigation입니다.","input":""}
+{"instruction":"GeOnDT 제품의 지도 제어 기능은 무엇입니까?","output":"GeOnDT 제품의 지도 제어 기능은 Map Control입니다.","input":""}
+{"instruction":"GeOnDT 제품의 메시지 처리 기능은 무엇입니까?","output":"GeOnDT 제품의 메시지 처리 기능은 Message Handler입니다.","input":""}
+{"instruction":"GeOnDT 제품의 이벤트 리스너 기능은 무엇입니까?","output":"GeOnDT 제품의 이벤트 리스너 기능은 Event Listener입니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 렌더러는 무엇입니까?","output":"GeOnDT 제품의 3D 렌더러는 3D Renderer입니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 렌더러는 어떤 기술을 사용합니까?","output":"GeOnDT 제품의 3D 렌더러는 WebGL 기술을 사용합니다.","input":""}
+{"instruction":"GeOnDT 제품의 레이어 관리 기능은 무엇입니까?","output":"GeOnDT 제품의 레이어 관리 기능은 Layer Manager입니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 수학 기능은 무엇입니까?","output":"GeOnDT 제품의 3D 수학 기능은 3D Math입니다.","input":""}
+{"instruction":"GeOnDT 제품의 문서번호와 버전은 무엇입니까?","output":"GeOnDT 제품의 문서번호는 GeOnDT-INT-01이며, 버전은 v2.0입니다.","input":""}
+{"instruction":"GeOnDT 제품설명서에서 제공하는 정보는 무엇입니까?","output":"GeOnDT 제품설명서는 GeOnDT v2.0에 대한 전체적인 설명을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품을 제공하는 회사의 이름은 무엇입니까?","output":"GeOnDT 제품을 제공하는 회사의 이름은 (주)웨이버스입니다.","input":""}
+{"instruction":"GeOnDT 제품을 제공하는 회사의 대표이사는 누구입니까?","output":"GeOnDT 제품을 제공하는 회사의 대표이사는 김학성입니다.","input":""}
+{"instruction":"GeOnDT 제품을 제공하는 회사의 주소는 무엇입니까?","output":"GeOnDT 제품을 제공하는 회사의 주소는 서울 구로구 디지털로26길 61, 1001호입니다.","input":""}
+{"instruction":"GeOnDT 제품을 제공하는 회사의 홈페이지 주소는 무엇입니까?","output":"GeOnDT 제품을 제공하는 회사의 홈페이지 주소는 http:\/\/www.wavus.co.kr입니다.","input":""}
+{"instruction":"GeOnDT Client의 주요 기능은 무엇입니까?","output":"GeOnDT Client는 WebGL을 사용하여 3D 렌더링을 수행합니다.","input":""}
+{"instruction":"GeOnDT Server의 주요 기능은 무엇입니까?","output":"GeOnDT Server는 다양한 API를 통해 데이터 처리를 수행합니다.","input":""}
+{"instruction":"GeOnDT Builder의 주요 기능은 무엇입니까?","output":"GeOnDT Builder는 3D 모델을 생성하고 편집하는 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT Scheduler의 주요 기능은 무엇입니까?","output":"GeOnDT Scheduler는 작업 스케줄링을 통해 자동화된 작업을 관리합니다.","input":""}
+{"instruction":"GeOnDT 제품의 API는 어떤 언어로 작성됩니까?","output":"GeOnDT 제품의 API는 JavaScript로 작성됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 주요 기능은 무엇입니까?","output":"GeOnDT 제품의 주요 기능은 3D 분석, 시뮬레이션, 측정, 지형 처리, 네비게이션, 메시지 핸들링, 이벤트 리스닝, 3D 렌더링입니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 분석 기능은 무엇입니까?","output":"GeOnDT 제품의 3D 분석 기능은 지형 분석, 시뮬레이션, 측정 등을 포함합니다.","input":""}
+{"instruction":"GeOnDT 제품의 지형 처리 기능은 무엇입니까?","output":"GeOnDT 제품의 지형 처리 기능은 지형 데이터를 처리하고 시각화하는 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품의 네비게이션 기능은 무엇입니까?","output":"GeOnDT 제품의 네비게이션 기능은 지도 상에서의 경로 탐색과 이동을 지원합니다.","input":""}
+{"instruction":"GeOnDT 제품의 메시지 핸들링 기능은 무엇입니까?","output":"GeOnDT 제품의 메시지 핸들링 기능은 시스템 내에서 발생하는 메시지를 처리하고 관리합니다.","input":""}
+{"instruction":"GeOnDT 제품의 이벤트 리스닝 기능은 무엇입니까?","output":"GeOnDT 제품의 이벤트 리스닝 기능은 사용자 인터랙션과 시스템 이벤트를 감지하고 처리합니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 모델 생성 기능은 무엇입니까?","output":"GeOnDT 제품의 3D 모델 생성 기능은 사용자가 3D 모델을 생성하고 편집할 수 있는 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품의 작업 스케줄링 기능은 무엇입니까?","output":"GeOnDT 제품의 작업 스케줄링 기능은 자동화된 작업을 예약하고 관리하는 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품의 데이터 처리 기능은 무엇입니까?","output":"GeOnDT 제품의 데이터 처리 기능은 다양한 API를 통해 데이터를 처리하고 관리합니다.","input":""}
+{"instruction":"GeOnDT 제품의 시뮬레이션 기능은 무엇입니까?","output":"GeOnDT 제품의 시뮬레이션 기능은 다양한 시나리오를 시뮬레이션하여 결과를 분석합니다.","input":""}
+{"instruction":"GeOnDT 제품의 측정 기능은 무엇입니까?","output":"GeOnDT 제품의 측정 기능은 3D 공간에서의 거리, 면적, 부피 등을 측정합니다.","input":""}
+{"instruction":"GeOnDT 제품의 지형 분석 기능은 무엇입니까?","output":"GeOnDT 제품의 지형 분석 기능은 지형 데이터를 분석하여 다양한 정보를 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품의 경로 탐색 기능은 무엇입니까?","output":"GeOnDT 제품의 경로 탐색 기능은 지도 상에서 최적의 경로를 탐색합니다.","input":""}
+{"instruction":"GeOnDT 제품의 사용자 인터랙션 감지 기능은 무엇입니까?","output":"GeOnDT 제품의 사용자 인터랙션 감지 기능은 사용자의 입력을 감지하고 처리합니다.","input":""}
+{"instruction":"GeOnDT 제품의 시스템 이벤트 감지 기능은 무엇입니까?","output":"GeOnDT 제품의 시스템 이벤트 감지 기능은 시스템 내에서 발생하는 이벤트를 감지하고 처리합니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 렌더링 기술은 무엇입니까?","output":"GeOnDT 제품의 3D 렌더링 기술은 WebGL을 사용하여 고성능 3D 그래픽을 제공합니다.","input":""}
+{"instruction":"GeOnDT의 주요 모듈은 무엇입니까?","output":"GeOnDT의 주요 모듈은 GeOnDT Client, GeOnDT Server, GeOnDT Scheduler, GeOnDT Builder입니다.","input":""}
+{"instruction":"GeOnDT의 API는 어떤 언어로 제공됩니까?","output":"GeOnDT의 API는 JavaScript 언어로 제공됩니다.","input":""}
+{"instruction":"GeOnDT의 3D 렌더링은 어떤 기술을 사용합니까?","output":"GeOnDT의 3D 렌더링은 WebGL 기술을 사용합니다.","input":""}
+{"instruction":"GeOnDT의 제품 설명서 ID는 무엇입니까?","output":"GeOnDT의 제품 설명서 ID는 GeOnDT-INT-01-v2.0입니다.","input":""}
+{"instruction":"GeOnDT의 제공 기능 중 하나는 무엇입니까?","output":"GeOnDT는 3D 분석, 시뮬레이션, 측정, 지형 보기, 네비게이션, 지도 제어 등의 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT의 3D 분석 기능은 어떤 모듈에서 제공됩니까?","output":"GeOnDT의 3D 분석 기능은 Core 3D Analysis Layer Manager 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT의 제품 설명서를 제공하는 회사는 어디입니까?","output":"GeOnDT의 제품 설명서는 (주)웨이버스에서 제공합니다.","input":""}
+{"instruction":"GeOnDT의 3D 렌더링 기술은 무엇입니까?","output":"GeOnDT의 3D 렌더링 기술은 WebGL입니다.","input":""}
+{"instruction":"GeOnDT의 API는 어떤 기능을 제공합니까?","output":"GeOnDT의 API는 Geometric Correct, Visual Effect, Core 3D Analysis, Layer Manager, Process Executor 등의 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT의 제품 설명서 버전은 무엇입니까?","output":"GeOnDT의 제품 설명서 버전은 v2.0입니다.","input":""}
+{"instruction":"GeOnDT 제품의 주요 제공 기능은 무엇입니까?","output":"GeOnDT는 다양한 3D 업무 분석 기능, 가상 건물 생성 및 편집 기능, 2D·3D OGC 표준 서비스 등을 제공합니다.","input":""}
+{"instruction":"GeOnDT Client의 기능은 무엇입니까?","output":"GeOnDT Client는 Javascript 라이브러리와 WebGL 3D 클라이언트를 사용하며, Non-ActiveX 기반으로 작동합니다.","input":""}
+{"instruction":"GeOnDT Server에서 관리하는 정보는 무엇입니까?","output":"GeOnDT Server는 이미지 메타 정보, 높이 메타 정보, 모델 메타 정보, 컴포넌트 메타 정보 등을 관리합니다.","input":""}
+{"instruction":"GeOnDT Builder의 주요 기능은 무엇입니까?","output":"GeOnDT Builder는 Core Layer 관리, 타일링 매니저, 그리드 매니저, 객체 인터페이스 관리 등의 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT Scheduler의 역할은 무엇입니까?","output":"GeOnDT Scheduler는 작업 스케줄링, 파일 관리, 모니터링 등의 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT 주요 기능은?","output":"GeOnDT는 3D 업무 분석, 가상 건물 생성 및 편집, 2D·3D OGC 표준 서비스를 제공합니다.","input":""}
+{"instruction":"GeOnDT Client 기능은?","output":"GeOnDT Client는 Javascript 라이브러리와 WebGL 3D 클라이언트를 사용하며, Non-ActiveX 기반입니다.","input":""}
+{"instruction":"GeOnDT Server 관리 정보는?","output":"GeOnDT Server는 이미지, 높이, 모델, 컴포넌트 메타 정보를 관리합니다.","input":""}
+{"instruction":"GeOnDT Builder 주요 기능은?","output":"GeOnDT Builder는 Core Layer 관리, 타일링 매니저, 그리드 매니저, 객체 인터페이스 관리를 제공합니다.","input":""}
+{"instruction":"GeOnDT Scheduler 역할은?","output":"GeOnDT Scheduler는 작업 스케줄링, 파일 관리, 모니터링 기능을 합니다.","input":""}
+{"instruction":"GeOnDT 제품이 제공하는 주요 기능에 대해 설명해 주세요.","output":"GeOnDT는 다양한 3D 업무 분석 기능을 제공하며, 이를 통해 사용자는 가상 건물을 생성하고 편집할 수 있습니다. 또한, 2D 및 3D OGC 표준 서비스도 포함되어 있어 다양한 작업 환경에서 활용이 가능합니다.","input":""}
+{"instruction":"GeOnDT Client의 주요 기능에 대해 자세히 설명해 주세요.","output":"GeOnDT Client는 Javascript 라이브러리와 WebGL 3D 클라이언트를 활용하여, 사용자에게 Non-ActiveX 기반의 안정적인 3D 환경을 제공합니다. 이로 인해 사용자들은 더욱 직관적이고 빠른 작업을 수행할 수 있습니다.","input":""}
+{"instruction":"GeOnDT Server가 관리하는 정보는 어떤 것들이 있습니까?","output":"GeOnDT Server는 다양한 메타 정보를 관리합니다. 여기에는 이미지 메타 정보, 높이 메타 정보, 모델 메타 정보, 그리고 컴포넌트 메타 정보가 포함됩니다. 이러한 정보 관리를 통해 서버는 사용자에게 정교하고 일관된 데이터를 제공합니다.","input":""}
+{"instruction":"GeOnDT Builder의 주요 기능에 대해 설명해 주세요.","output":"GeOnDT Builder는 Core Layer 관리, 타일링 매니저, 그리드 매니저, 객체 인터페이스 관리 등의 다양한 기능을 제공합니다. 이 도구는 사용자들이 3D 모델링 작업을 효율적으로 수행할 수 있도록 지원합니다.","input":""}
+{"instruction":"GeOnDT Scheduler의 역할에 대해 설명해 주세요.","output":"GeOnDT Scheduler는 작업 스케줄링, 파일 관리, 모니터링 등의 중요한 역할을 수행합니다. 이를 통해 사용자는 복잡한 작업을 체계적으로 계획하고 관리할 수 있으며, 작업의 효율성을 높일 수 있습니다.","input":""}
+{"instruction":"GeOnDT 제품이 제공하는 주요 기능에 대해 설명해 주세요.","output":"GeOnDT는 **다양한 3D 업무 분석 기능**을 제공하며, 이를 통해 사용자는 **가상 건물 생성**과 **편집**을 할 수 있습니다. 또한, **2D 및 3D OGC 표준 서비스**도 포함되어 있어 다양한 작업 환경에서 활용이 가능합니다.","input":""}
+{"instruction":"GeOnDT Client의 주요 기능에 대해 자세히 설명해 주세요.","output":"GeOnDT Client는 **Javascript 라이브러리**와 **WebGL 3D 클라이언트**를 활용하여, 사용자에게 **Non-ActiveX 기반**의 안정적인 3D 환경을 제공합니다. 이로 인해 사용자들은 더욱 **직관적이고 빠른 작업**을 수행할 수 있습니다.","input":""}
+{"instruction":"GeOnDT Server가 관리하는 정보는 어떤 것들이 있습니까?","output":"GeOnDT Server는 다양한 **메타 정보**를 관리합니다. 여기에는 **이미지 메타 정보**, **높이 메타 정보**, **모델 메타 정보**, 그리고 **컴포넌트 메타 정보**가 포함됩니다. 이러한 정보 관리를 통해 서버는 사용자에게 **정교하고 일관된 데이터**를 제공합니다.","input":""}
+{"instruction":"GeOnDT Builder의 주요 기능에 대해 설명해 주세요.","output":"GeOnDT Builder는 **Core Layer 관리**, **타일링 매니저**, **그리드 매니저**, **객체 인터페이스 관리** 등의 다양한 기능을 제공합니다. 이 도구는 사용자들이 **3D 모델링 작업**을 효율적으로 수행할 수 있도록 지원합니다.","input":""}
+{"instruction":"GeOnDT Scheduler의 역할에 대해 설명해 주세요.","output":"GeOnDT Scheduler는 **작업 스케줄링**, **파일 관리**, **모니터링** 등의 중요한 역할을 수행합니다. 이를 통해 사용자는 **복잡한 작업**을 체계적으로 계획하고 관리할 수 있으며, **작업의 효율성**을 높일 수 있습니다.","input":""}
+{"instruction":"GeOnDT 제품의 최신 버전은 무엇입니까?","output":"GeOnDT 제품의 최신 버전은 v2.0입니다.","input":""}
+{"instruction":"GeOnDT 제품설명서의 버전 번호는 무엇입니까?","output":"GeOnDT 제품설명서의 버전 번호는 v2.0입니다.","input":""}
+{"instruction":"GeOnDT 제품설명서에서 제공하는 주요 내용은 무엇입니까?","output":"GeOnDT 제품설명서는 GeOnDT v2.0에 대한 자세한 설명을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품을 개발한 회사는 어디입니까?","output":"GeOnDT 제품을 개발한 회사는 (주)웨이버스입니다.","input":""}
+{"instruction":"(주)웨이버스의 대표는 누구입니까?","output":"(주)웨이버스의 대표는 김학성입니다.","input":""}
+{"instruction":"(주)웨이버스의 회사 위치는 어디입니까?","output":"(주)웨이버스의 회사 위치는 서울 구로구 디지털로26길 61, 1001호입니다.","input":""}
+{"instruction":"(주)웨이버스의 공식 웹사이트 주소는 무엇입니까?","output":"(주)웨이버스의 공식 웹사이트 주소는 http:\/\/www.wavus.co.kr입니다.","input":""}
+{"instruction":"GeOnDT 시스템의 주요 구성 요소는 무엇입니까?","output":"GeOnDT 시스템의 주요 구성 요소는 GeOnDT Client, GeOnDT Server, GeOnDT Scheduler, GeOnDT Builder입니다.","input":""}
+{"instruction":"GeOnDT Client의 역할은 무엇입니까?","output":"GeOnDT Client는 GeOnDT 시스템의 클라이언트 역할을 하며, 사용자가 시스템과 상호작용할 수 있게 합니다.","input":""}
+{"instruction":"GeOnDT Server의 기능은 무엇입니까?","output":"GeOnDT Server는 GeOnDT 시스템의 서버 역할을 하며, 데이터 관리와 처리를 담당합니다.","input":""}
+{"instruction":"GeOnDT Scheduler의 기능은 무엇입니까?","output":"GeOnDT Scheduler는 GeOnDT 시스템의 작업 스케줄링을 관리합니다.","input":""}
+{"instruction":"GeOnDT Builder의 주요 기능은 무엇입니까?","output":"GeOnDT Builder는 GeOnDT 시스템의 빌더 역할을 하며, 3D 모델을 생성하고 편집합니다.","input":""}
+{"instruction":"GeOnDT 제품의 API는 어떤 언어로 구현됩니까?","output":"GeOnDT 제품의 API는 JavaScript 언어로 구현됩니다.","input":""}
+{"instruction":"GeOnDT API는 어떤 기능을 제공합니까?","output":"GeOnDT API는 GeOnDT Object, Generic App Utility, Geometric Correct, Visual Effect, Core 3D Analysis, Layer Manager, Process Executor, 3D Math 등의 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 렌더링 기술은 무엇입니까?","output":"GeOnDT 제품의 3D 렌더링 기술은 WebGL을 사용합니다.","input":""}
+{"instruction":"GeOnDT 제품이 제공하는 주요 기능은 무엇입니까?","output":"GeOnDT 제품은 3D 분석, 시뮬레이션, 측정, 지형 보기, 프로세스 실행, 네비게이션, 지도 제어, 메시지 처리, 이벤트 리스너 등의 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 분석 기능은 무엇입니까?","output":"GeOnDT 제품의 3D 분석 기능은 Core 3D Analysis 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 시뮬레이션 기능은 무엇입니까?","output":"GeOnDT 제품의 시뮬레이션 기능은 Simulation 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 측정 기능은 무엇입니까?","output":"GeOnDT 제품의 측정 기능은 Measure 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 지형 보기 기능은 무엇입니까?","output":"GeOnDT 제품의 지형 보기 기능은 Terrain 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 프로세스 실행 기능은 무엇입니까?","output":"GeOnDT 제품의 프로세스 실행 기능은 Process Executor 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 네비게이션 기능은 무엇입니까?","output":"GeOnDT 제품의 네비게이션 기능은 Navigation 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 지도 제어 기능은 무엇입니까?","output":"GeOnDT 제품의 지도 제어 기능은 Map Control 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 메시지 처리 기능은 무엇입니까?","output":"GeOnDT 제품의 메시지 처리 기능은 Message Handler 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 이벤트 리스너 기능은 무엇입니까?","output":"GeOnDT 제품의 이벤트 리스너 기능은 Event Listener 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 레이어 관리 기능은 무엇입니까?","output":"GeOnDT 제품의 레이어 관리 기능은 Layer Manager 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 수학 기능은 무엇입니까?","output":"GeOnDT 제품의 3D 수학 기능은 3D Math 모듈에서 제공됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 문서번호와 버전은 무엇입니까?","output":"GeOnDT 제품의 문서번호는 GeOnDT-INT-01이고, 버전은 v2.0입니다.","input":""}
+{"instruction":"GeOnDT 제품설명서에서 제공하는 정보는 무엇입니까?","output":"GeOnDT 제품설명서는 GeOnDT v2.0에 대한 포괄적인 설명을 제공합니다.","input":""}
+{"instruction":"GeOnDT Client의 주요 기능은 무엇입니까?","output":"GeOnDT Client는 WebGL을 활용한 3D 렌더링을 수행합니다.","input":""}
+{"instruction":"GeOnDT Server의 주요 기능은 무엇입니까?","output":"GeOnDT Server는 다양한 API를 통해 데이터 처리 및 관리를 수행합니다.","input":""}
+{"instruction":"GeOnDT Builder의 주요 기능은 무엇입니까?","output":"GeOnDT Builder는 3D 모델을 생성 및 편집할 수 있는 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT Scheduler의 주요 기능은 무엇입니까?","output":"GeOnDT Scheduler는 작업 스케줄링을 통해 자동화된 작업 관리를 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품의 API는 어떤 언어로 작성됩니까?","output":"GeOnDT 제품의 API는 JavaScript로 작성되었습니다.","input":""}
+{"instruction":"GeOnDT 제품의 주요 기능은 무엇입니까?","output":"GeOnDT 제품의 주요 기능에는 3D 분석, 시뮬레이션, 측정, 지형 처리, 네비게이션, 메시지 핸들링, 이벤트 리스닝, 3D 렌더링이 포함됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 3D 분석 기능은 무엇입니까?","output":"GeOnDT 제품의 3D 분석 기능에는 지형 분석, 시뮬레이션, 측정이 포함됩니다.","input":""}
+{"instruction":"GeOnDT 제품의 네비게이션 기능은 무엇입니까?","output":"GeOnDT 제품의 네비게이션 기능은 지도 상에서 경로 탐색과 이동을 지원합니다.","input":""}
+{"instruction":"GeOnDT 제품의 측정 기능은 무엇입니까?","output":"GeOnDT 제품의 측정 기능은 3D 공간에서 거리, 면적, 부피 등을 측정하는 기능을 제공합니다.","input":""}
+{"instruction":"GeOnDT 제품이 제공하는 주요 기능에 대해 설명해 주세요.","output":"GeOnDT는 다양한 3D 업무 분석 기능을 제공하며, 이를 통해 사용자는 가상 건물 생성과 편집을 할 수 있습니다. 또한, 2D 및 3D OGC 표준 서비스도 포함되어 있어 다양한 작업 환경에서 활용이 가능합니다.","input":""}
