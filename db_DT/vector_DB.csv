@@ -1,0 +1,930 @@
+image_summaries,table_summaries,text_summaries,texts,tables,img_base64_list
+,"Here is a concise summary of the table or text optimized for retrieval:
+""GeOnDT components and versions: Client (WebGL), Server, Builder, Scheduler, with associated technologies (Union3D, o3D, SSEA4CR, SODA, JavaScript) and features (3D, AA, SSL, WebGL)""","Here is a concise summary of the table and text optimized for retrieval:
+
+
+
+**Summary:** GeOnDT is a 3D GIS system that provides various functionalities for 3D data processing, analysis, and visualization. It consists of three main components: GeOnDT Client, GeOnDT Server, and GeOnDT Builder. The system supports OGC standards, including WMS, WFS, and 3DTiles, and provides APIs for developers to integrate with other systems. GeOnDT offers features such as 3D modeling, spatial analysis, and data visualization, making it a comprehensive solution for 3D GIS applications.","문서번호 : GeOnDT-INT-01 버 전 : v2.0 
+
+GeOnDT [Introduction]
+
+7
+
+A| PET CABS 267 61, 10012 TEL. 02-851-9640 / FAX 02-851-9650 / www.wavus.co.kr 2 I) Jim fu
+
+Sf 1. AS 7HE 1-1 Alea 1-2 534 2. Ales 2-1 A|ABTS 2-2 GeOnDT 74 & 3. FRASZ7lS 3-1 GeOnDT Client 3-2 GeOnDT Server 3-3 GeOnDT Scheduler 3-4 GeOnDT Builder 4. A8Atell 4-1 7| SOA]
+
+01 AS 7B Wea",GeOnDT (71 Union3D) o3D HEWES SSEA4CR SODA = oe BEE c}O| 2242] © GeOnDT Client © WebGL 7|HFO @ CteFek3p AF 7 SS AAS apie 2SS}4! javascirpt S2}0| AS © GeOnDT Server oD Sy/as/de | o-1 aplS 4] S1SOH= Xtuf AH] De 1H © GeOnDT Builder 0 3D AA Ae. S 7tS oto Tus -S AIH 7h GO|} ofE HAS E Dea © GeOnDT Scheduler © GeOnDT Server2} GeOnDT Builder7!01] fs SSL 20/0 ApS /PtAtsS Ht a|SHe Apu} e124,
+,"Here is a concise summary of the table or text that is well optimized for retrieval: ""Geospatial libraries and frameworks, including OpenLayers, wthree.js, GDAL, and JSTS, for querying and processing spatial data.""","Here is a concise summary of the table and text, optimized for retrieval:
+```
+**GeOnDT System Components**
+
+* GeOnDT Server
+* GeOnDT Client
+* GeOnDT Builder
+* GeOnDT Scheduler
+* Interface Business Rest API
+* Category Manager
+* Layer Manager
+* DB Manager
+* Admin Certification
+* UI Layer
+* Management Layer
+* API Key Management
+* Image Meta Information
+* Height Meta Information
+* Model Meta Information
+* Component Meta Information
+* Core
+* History Manager
+* Job Scheduling
+* File Manager
+* Builder Monitor
+* Tiler
+* Viewer
+* Environment
+* UAM (Unmanned Aerial Vehicle) Management
+* Simulation
+* 3D Road Information Management
+* Underground Facility Management
+* Building Management
+* Urban Regeneration Simulation
+* National Spatial Information Utilization
+* Landscape Consideration
+* Administrative Support
+* RISUSS
+* SOC (System of Systems)
+* SS (Simulation System)
+* sera
+* stesls
+* Al 2S
+* tel
+* soc Al
+* $2
+* 74
+* FE
+* Hel
+* VAM
+* Bel
+* AHA SS
+* ALBA o|
+* 8]
+* vam
+* ESSE
+* soa
+* Bel
+* soa
+* 드론 비행 시뮬레이션 (Drone Flight Simulation)
+* UAM 비행 시뮬레이션 (UAM Flight Simulation)
+```
+This summary captures the main components and concepts mentioned in the text and table, including the GeOnDT system, its various components, and related concepts such as simulation, management, and information systems.","웨이버스 
+
+※ 제품 설명서(ID : GeOnDT-INT-01-v2.0) : 본 제품설명서는 GeOnDT v2.0에 대한 제품에 대한 전체적인 설명을 제공하는 문서임
+
+€ 237} ae
+
+237} ae
+
+제공 : (주)웨이버스 (대표이사: 김학성) • 주소 : 서울 구로구 디지털로26길 61, 1001호 • 홈페이지: http://www.wavus.co.kr
+
+OlASE eo Eh
+
+01 AS 7B Wz Sars
+
+Csywvaw
+
+3DS7! 7S BES} FB! API AS CroFst 3p Ht 272 AH|A Sey * OF 4A Threejs 7/2 3D S73 ° AA NS TS SBuildenas Ak|~8 FOE] Het ag AH|A 7] 40] BASt AS 7S = Oo ° CHekot BMS] 3DAH(SY AS AS GES} ao ° Qo FAZES El Ell Oo] ee olzZl + SDAP Slo} SAA 7H + VLE ee SENS SON) ATE IES a4 wg BAYA, SAA, DoS SSS S Crefet3p ° 3D SAEZ 3DTiles AHA AS a AlS » | 2(0GC) Ws, WES H|A Ai : Wa AMS 20] HAA] SLE IYOA AAJ S * GS(Good Software) IS 122 315 AMS . =| Cost 3D HF BAS AS BD St 7s 2D/3D OGCHE AH|A AS
+
+3DS7! 7S BES} FB! API AS
+
+CroFst 3p Ht 272 AH|A Sey
+
+° AA NS TS SBuildenas Ak|~8 FOE] Het ag = Oo ° CHekot BMS] 3DAH(SY AS AS ao ° Qo FAZES El Ell Oo] ee olzZl ee SENS SON) ATE IES
+
+* OF 4A Threejs 7/2 3D S73 AH|A 7] 40] BASt AS 7S GES} + SDAP Slo} SAA 7H + VLE a4 wg
+
+BAYA, SAA, DoS SSS S Crefet3p a AlS : Wa AMS 20] HAA] SLE IYOA AAJ S AMS Cost 3D HF BAS AS BD St 7s
+
+° 3D SAEZ 3DTiles AHA AS » | 2(0GC) Ws, WES H|A Ai * GS(Good Software) IS 122 315 =|
+
+Cost 3D HF BAS AS BD St 7s
+
+2D/3D OGCHE AH|A AS
+
+€ £Q 7|ch Bay
+
+£Q 7|ch Bay
+
+HE At oket
+
+* 71=30G57|50| Reel S2SE Api ALSO ME SAPS AHA HE “HST sDSS OMS ASAE SHAS] 7S 7HHO] BIA AS
+
+lS OPE AH|A AIS 7h SStMH|A LHS! — © aY]O|O} REST APLEE CHSEt3p AEE Nel S 1740404 S174] 7S OPS Ol 3p | A HS HIBOHS 30 * ScriptObject°| HESS Sta 7H 2|AAAIAS}
+
+SH 7hS 2S SG
+
+© CHS AEF} HHO|EY BulderS SStMH|A LHS! HEE 2244 (3D Tiles, wos) S F|O|E} S174] 7S «https /threeisorg/AtO|E OM] HIBOHS 30 AME AALS ATL SIAP TL
+
+© aY]O|O} REST APLEE CHSEt3p AEE Nel S 1740404 OPS Ol 3p | A HS * ScriptObject°| HESS Sta 7H 2|AAAIAS}
+
+01 AlS 712A Sas
+
+HO| AlBelo|At Afb|~ ClA| BES Aa|AzA PlE|iH|O|~ (REST & Javascript API)
+
+Application pp Layer
+
+GeOnDT Gient
+
+GeOnDT Gient
+
+GeOnDT Server
+
+GeOnDT Server
+
+GeOnDT Builder
+
+GeOnDT Builder
+
+GeOnDT Scheduler
+
+GeOnDT Scheduler
+
+- <i g |","QOBAA wthree.js @ Opentayers 2}0| S242] GDAL""® wjQuerv JSTS J",
+,"Here is a concise summary of the table or text that is well optimized for retrieval:
+""Components of a 3D Geospatial API, including geometric correction, visual effects, analysis, layer management, process execution, math interface, simulation, measurement, view, terrain processing, navigation, map control, event handling, and 3D rendering using WebGL.""",,"Presentation Layer
+
+=
+
+sioijofapr |
+
+sioijofapr
+
+| illo zHZlam
+
+illo zHZlam
+
+|
+
+30 AL AAI
+
+30 AL AAI
+
+Algalovtar
+
+Algalovtar
+
+|
+
+AMS ze|an
+
+AMS ze|an
+
+|
+
+aD AKE ZHI API
+
+aD AKE ZHI API
+
+GeOnDT
+
+; ; Business Logic EUS!
+
+Raster
+
+AEDST
+
+Vector
+
+a|AA Be
+
+a|AA Be
+
+Model
+
+Algaolad
+
+2.5D Model
+
+2.5D Model
+
+Pol
+
+Drone
+
+DBZ
+
+DBZ",API (JavaScript) GeOnDT Object Generic App Utility Geometric Correct Visual Effect Core 3D Analysis Layer Manager Process Executor 3D Math I n t e r f a c e O b e c t j Simulation Measure View Terrain Process Executor Navigation Map Control Message Handler Event Listener 3D Renderer ( WebGL ),
+,"Here is a concise summary of the table or text that is well optimized for retrieval:
+""List of components in a 3D visualization system, including interface, shell command, tiling, grid, layer, and rendering managers, as well as converters, viewers, and information handlers for environment, image, height, model, shape, and POI data.""",,"C 3D S277 |S BES} & API AMS (2/2)
+
+3D S277 |S BES} & API AMS (2/2)
+
+3DTiles 2H 210/04 Oa]
+
+HBAS Fed AjH|A BQ} Chef Ate Ate fe} tof ATH) 7S
+
+Vv
+
+V Heo] HOA ADS Popo] PoAAo | O]e|447| 7|SOlly SA lee Al
+
+oO
+
+개발자를 위한 개발 편의 기능 제공
+
+|. USdModelTilesLayer
+
+ASHE] AAV/BS
+
+ASA Fa aa AA|(SHP, XML)
+
+ALE MY 3 GO|] Fe AA
+
+AE! 2]0] 0} ES
+
+V SSB: Ad, 3S, SEO Bet GE BW] BASg
+
+V 25D TS, AALS GL AALS (308, 0B), FBX, BIIV(IFC), 3DTies)
+
+V AAAS bil, Geokiff, img 5), AS} AAS BAAS
+
+3D ey]0| 0 ze |
+
+3D zi]0|0} AEA
+
+O]e|et7| ag
+
+yal ‘ ; Sat y Apsara) sa) pen a ae Y 2arwK— y
+
+= 712 Ri
+
+tA) Se WM ( OGC By TH ral Kd oll
+
+tA) Se By TH
+
+tA) Se WM
+
+tA) Se WM ( OGC
+
+tA) Se WM ( OGC
+
+By TH ral Kd oll
+
+By TH ral Kd oll
+
+다양한 3D 업무분석 기능 제공
+
+IO] E] 4575 Builders 01 = (=) Sot Ha, BEAH|AGD Tiles H wo TE 0 al aio pl 0 Fo nx 2 ulo lo HH az WwW ae 3 rae az Wl i ax So Jl a< Ho 2 Hos 9 gest D fe iO Si jor 00 jo = 0 nN K xr 3 TH & N (oe) Oo fo
+
+가상건물 생성 및 편집 기능 제공
+
+2D·3D OGC 표준서비스 제공
+
+Ha & e = N ix ao 01 Al
+
+\qTA) SBE SOALS Z| GS(Good Software) 215-15 od r=] <H
+
+— zi Ha 80 Klo ol
+
+274 UnionMap) v1.0 (0) BS: FU ce] 9
+
+eat OGCOpen Geospatial Consortium) Compliance for OGC Standards Zs °o La X 2 dl] s oO Oo X
+
+(Open Geospatial Consortium Compliance Cetfiate mln {hia Li ton (ina Me nese ror cap k CH Sap Sod Fini 18
+
+(Open Geospatial Consortium Compliance Cetfiate mln {hia Li ton (ina Me nese ror cap k CH Sap Sod Fini 18
+
+SB: OGC Compliance
+
+E90] BA: urionvap 100 ATE:
+
+2 262! lS ALY: 201914 11
+
+2! ~ 201944 102] 102! 7|Zt: 201914 92! 10'
+
+x a 0 WES 1.1.0 WCS 1.1.1) = (WVS |: S78! AJH|A EOF 37H fe} TI
+
+02 AS TS AIA 4S
+
+€ 3p ais 7|#FS| Essel &
+
+3p ais 7|#FS| Essel &
+
+공간자료  가공자료 저장  GeOnDT Builder  자료 전처리  •  •  •  타일맵  메타정보 및 관련정보 저장  실 자료 서비스 제공  GeOnDT Server  •  •  •  GeOnDT Scheduler  •  •  접속  인터넷  3D 관련 정보 취득  접속  GeOnDT Client  • Javascript library • Webgl 3D Client • Non-ActiveX 기반  사용자/관리자  3D 관련업무 관련 업무 
+
+타일맵 
+
+GeOnDT Server 
+
+GeOnDT Server  •  •  • 
+
+GeOnDT
+
+Server
+
+k els Or! CUA oo
+
+a1 5 (DEM)
+
+GeOnDT Builder 
+
+Builder
+
+GeOnDT
+
+GeOnDT Builder  •  •  • 
+
+ae (DS, OB), FBX)
+
+인터넷 
+
+25D 7S (shp)
+
+GeOnDT Scheduler  •  • 
+
+£=€DrTiles)
+
+Client
+
+GeOnDT
+
+GeOnDT Client
+
+GeOnDT Client  • Javascript library • Webgl 3D Client • Non-ActiveX 기반 
+
+AAS =
+
+Ee",Interface Business Shell Command API & Shell Command Core Tiling Manager Grid Manager Layer Manager QuadTree Handler General Converter 3D Renderer Tiler C/S Viewer Viewer Environment Management Image Information Height Information Model Information Shape Information POI Information,
+,,,"02 AlS 74 Geonpt FYE
+
+€ GeondT #AE
+
+GeondT #AE
+
+—
+
+GeOnDT Scheduler   Interface  Business Rest API  API & Shell Command  Core  Job Scheduling  History  Manager  File Manager  Builder Monitor  Core DB  Feature  Building  Image  height  POI  Facility  Component  Object Status/Info.  Ext DB  Extension  Object  Extension  Information  Extension   GeOnDT Server   Interface  Business Rest API  Rest API  Core  Category Manager  API Key Manager  Layer Manager  DB Manager  Admin  Certification  UI Layer  Management  API Key Management  GeOnDT Builder   Interface  Business Shell Command  API &  Shell Command  Layer Manager  General  Converter  Core  Tiling  Manager  QuadTree Handler  Grid  Manager  3D Renderer  Tiler   C/S Viewer  Viewer  Environment  Management Layer Information  Image Meta Information  Height Meta Information  Model Meta Information  Component Meta  Information  Management Image Information  Height Information  Model Information  Shape Information  POI Information  GeOnDT Client     API (JavaScript)  GeOnDT Object  Generic App  Core  3D Analysis  Layer Manager  Simulation  Measure   Terrain  Process Executor   Event Listener  Message Handler     I  n t e r f a c e  O b e c t  j  Utility     Geometric  Correct  Visual Effect  3D Math  Process Executor   View  Navigation  Map Control  3D Renderer ( WebGL ) 
+
+API (JavaScript) 
+
+API (JavaScript) 
+
+Layer Information
+
+Layer Information
+
+Rest API 
+
+API & Shell Command 
+
+API & Shell Command 
+
+Rest API 
+
+   I  n t e r f a c e  O b e c t  j    
+
+Rest API
+
+Rest API
+
+Rest API
+
+Rest API
+
+Generic App 
+
+Generic App 
+
+Image Meta Information 
+
+Image Meta Information 
+
+Layer Manager 
+
+Category Manager 
+
+Layer Manager 
+
+Category Manager 
+
+Height Meta Information 
+
+Height Meta Information 
+
+3D Analysis 
+
+3D Analysis 
+
+Layer Manager 
+
+Layer Manager 
+
+Job Scheduling 
+
+History  Manager 
+
+History  Manager 
+
+Job Scheduling 
+
+API Key Manager 
+
+DB Manager 
+
+API Key Manager 
+
+DB Manager 
+
+Simulation 
+
+Model Meta Information 
+
+Simulation 
+
+Measure  
+
+Measure  
+
+Model Meta Information 
+
+File Manager 
+
+Builder Monitor 
+
+Builder Monitor 
+
+Terrain 
+
+Process Executor  
+
+Terrain 
+
+Process Executor  
+
+File Manager 
+
+Component Meta  Information 
+
+Layer | Management |
+
+Admin  Certification 
+
+API Key Management 
+
+Component Meta  Information 
+
+API Key Management 
+
+Layer | Management |
+
+Admin  Certification 
+
+Event Listener 
+
+Message Handler 
+
+Event Listener 
+
+Message Handler 
+
+   I  n t e r f a c e  O b e c t  j    
+
+Image Information
+
+Image Information
+
+API &  Shell Command 
+
+API &  Shell Command 
+
+Geometric  Correct 
+
+Geometric  Correct 
+
+Visual Effect 
+
+Visual Effect 
+
+Shell Command
+
+Shell Command
+
+Height Information 
+
+Height Information 
+
+3D Math 
+
+Process Executor  
+
+3D Math 
+
+Process Executor  
+
+Tiling  Manager 
+
+Layer Manager 
+
+Grid  Manager 
+
+Tiling  Manager 
+
+Layer Manager 
+
+Grid  Manager 
+
+Model Information 
+
+Model Information 
+
+General  Converter 
+
+QuadTree Handler 
+
+QuadTree Handler 
+
+General  Converter 
+
+3D Renderer 
+
+Navigation 
+
+Navigation 
+
+Map Control 
+
+Map Control 
+
+3D Renderer 
+
+Shape Information 
+
+Shape Information 
+
+3D Renderer ( WebGL ) 
+
+3D Renderer ( WebGL ) 
+
+POI Information 
+
+POI Information 
+
+Tiler  
+
+Viewer 
+
+Environment 
+
+Tiler  
+
+Viewer 
+
+Environment 
+
+11
+
+11
+
+11",,
+,,,"FR AMS 7lS_
+
+API (JavaScript) 
+
+API (JavaScript) ",,
+,,,"   I  n t e r f a c e  O b e c t  j    
+
+rm zs KO FDS! QWIS 3D GIS rm a as oH AI 7 oF 1S Ot7 | 2st —_ = E j ; LS oS cholate As=ne= javascript APle Set AlH|~ AlS
+
+ww
+
+|
+
+Z . 01 QEAA threejs 7/HH2 2 Chore 3D ALIS WS
+
+02 CheFot S254 3D7}Al sh, OGC#HE WMS, WES, 3DTiles AHA AS
+
+03 Javascript APIISS Set C|A|ZER AHA 7H Sts aS AY/ASAA, DEA st S Tae sbria HSH 42 75] eH Al Bq 0/4
+
+04
+
+AS
+
+GeOnDT Client 
+
+GeOnDT Client 
+
+GeOnDT Server | GeOnDT Scheduler >
+
+GeOnDT Builder
+
+03 = AlS 7|S_Geondt Server
+
+Interface  Business Rest API  Rest API  Category Manager  API Key Manager  Core  Layer Manager  DB Manager  Admin  Certification  UI Layer  Management  API Key Management  Management Layer Information  Image Meta Information  Height Meta Information  Model Meta Information  Component Meta  Information 
+
+Management
+
+Management
+
+Rest API 
+
+Rest API 
+
+Image Meta Information 
+
+Image Meta Information 
+
+Layer Manager 
+
+Category Manager 
+
+Layer Manager 
+
+Category Manager 
+
+Height Meta Information 
+
+Height Meta Information 
+
+API Key Manager 
+
+DB Manager 
+
+API Key Manager 
+
+DB Manager 
+
+Model Meta Information 
+
+Model Meta Information 
+
+Component Meta  Information 
+
+API Key Management 
+
+Admin  Certification 
+
+API Key Management 
+
+Component Meta  Information 
+
+Admin  Certification 
+
+GeOnDT Server
+
+a Sera S. 3D 83 Ad Of Cot =| 0 |qH= = “3p SAVES /US 2 40 jos 2 2|o-2 APIS Al Hobe
+
+01 |
+
+spool ay it
+
+a0] 0} 4 OEP a Bg
+
+0/0] Zhe] Ul AlS
+
+GeOnDTClient  GeOnDT Server 
+
+GeOnDT Server 
+
+GeOnDT y Builder
+
+GeOnDT y Builder
+
+AMH|A 2i]0|0] 1 4 eee a Tae apie. Rtas Gus TUaTOET Sap TRS aE 2+ hrcece e Toes lepdcteog thedalrpertcem rinlpenbicurdeturdenly ena) a lays apne sg eae CET eETTO se up LA TOL pe Rg Ps ‘bec pipe icine oy MH 2eastorooen SST FEE amen S27HEESINLE, Ps ‘corement —tnlpmednkhs opt t2éalstonpomrtVLLA connee\L AVA at ort pprpdcths og t2taaotelgomanseten reajpransceonceteosly a oes predate ag tt Deamon otelpamanhjuuidy fs ‘corset linac op 11lDtatonponrtDioe Ot ‘ongonetDnre Oot Se Es ‘orgrent ana dnsag.2tatatonpoest UA Ot is ‘comeerent ‘ntpsipone duckins og 4 ¢2datstongonertDione 22 & = a Sa ieee aa ner Ps ‘bet matpoa dain 4 eDtatoweont se 2 S82 2+ sngnenng ee cs ‘adoro dite ¢e2eapaoXTE foargmeengTEST2 = em 2 = ot ne a oct lprodntreopteeanodsigenggcirsa ielyerepiseatae ty 74 ches is “comoorent ‘ntpsigone.ductns og 4 142datseorngonertSit 32,06 [evens WSR a+ jae a ‘cngurent appending op teDemstonporresii0 OF “onponeS0_ 915101001 3 aee7
+
+= ner 2+ sngnenng ee",,
+,,,"03 FR AlS 7|S_Geonot Scheduler
+
+GeOnDT Scheduler
+
+Interface  Business Rest API  API & Shell Command  Core  History  Manager  Job Scheduling  File Manager  Builder Monitor 
+
+GeOnDT Server2} GeOnDT BuilderZtOl] Ako 2 Aso SOE NERS Balste Meh SST
+
+API & Shell Command 
+
+API & Shell Command 
+
+eB
+
+01 AH 2} 2c i 2 val {ok fo OF 2 fr] 2 2Q Pal on ~~ ate tel AS
+
+02 | allo Wa Ae AAS? Aa
+
+History  Manager 
+
+Job Scheduling 
+
+History  Manager 
+
+Job Scheduling 
+
+03 | HAZ! BLE Ate AS
+
+File Manager 
+
+Builder Monitor 
+
+Builder Monitor 
+
+File Manager 
+
+04 | aO/O] BH AP! AS
+
+GeOnDTClient  GeOnDT Scheduler 
+
+ee 2S ee Tee news — sone — [7 | [ar | [4024 | [ersesier [= | [# | [es
+
+GeOnDTClient  GeOnDT Scheduler 
+
+GeOnDT Scheduler 
+
+Builder
+
+Builder
+
+03 42 AS 7|S_GeOndr Builder",,
+,,,"POI Information 
+
+Tiler  
+
+Viewer 
+
+Environment 
+
+B: Ey clojey= Ha ARS 7rSoto] TMS S AHA Ars QJAS5 22708
+
+01 | Ue/S8/LE Ss 3D HAASE EAP TMs SHS IS AS
+
+2 | OGCH#EO! 3DTilesS Ua MA
+
+WSS 38h SSet(Vertex, HAM) ASE Gl Ze
+
+4 | szt AS Se ASE + USS SU Te 2g a sje Ho}
+
+AS
+
+GeOnDTClient  GeOnDT Builder 
+
+GeOnDT Scheduler GeOnDT Server
+
+- oOo x De ae Zeog ae 7 ie] 20 el a) cy g tne4 = 50 el 2p8ai5173 (UTM) v One ea 192 ] Ed a ] LL ) SUE BeS 056 iS] DyDATAA SOHAL D/DATAAllingAest/madel (SOK. |
+
+04 AS Atel
+
+SOC 시설물 관리  지하시설물 관리  3D차원 도로정보 관리  노후 건물 관리  도시재생 시뮬레이션  국가공간정보 활용  경관심의 등 행정지원  UAM 기체, 항로, 포트 관리  UAM 비행 시뮬레이션  드론 비행 시뮬레이션  UAM 비행 시뮬레이션 
+
+RISUSS
+
+SS
+
+sera
+
+stesls
+
+Al 2S
+
+tel
+
+soc Al
+
+$2,
+
+74),
+
+FE
+
+Hel
+
+VAM
+
+Bel
+
+AHA SS
+
+ALBA o| at
+
+8]
+
+vam
+
+ESSE
+
+soa}
+
+Bel
+
+soa}
+
+드론 비행 시뮬레이션  UAM 비행 시뮬레이션 
+
+04 AS AAs gal
+
+ca
+
+|
+
+PAI gol Bast TSAO! AAA] Sl ST HLS cr
+
+7
+
+7
+
+7
+
+04 AS AA 715 gal
+
+APA]
+
+ALA] Slo] ZQst TSAO! O|AF-AAAl Sl E71 AS
+
+18
+
+18
+
+18
+
+AS Aral
+
+€ 29|7244 - walk, Fly, Bird 2&
+
+29|7244 - walk, Fly, Bird 2&
+
+HASSE 2822 C4 S59 gouct 0 OF
+
+HASSE 2822 C4 S59 gouct
+
+3A} Sl ALE(GLE, 3D7 0 OF Of og
+
+04 AS Ate 7is aA
+
+©
+
+Seals -' 8S Att Ale
+
+Aig ANAS At1_01 Att 12 AN1_02 4 AMAA \ oe ZA) TB et =P} | TAN i Ring 12-409 * . 124.09 =m 184254149 oat Ki24.20 4 ESD ANZAL2 4474.46 AA2-1049) AN2-415 = = , Al2-1044 reps @) Rn A AA2-4-42 A12-443 A12-4040 A12-1807, M2406 121102) AM2-947) = AI24145 ASZANN2 RAZMEA4 AA2-9001 , AA24043 ly » ' a“ a\ jee’
+
+Aig ANAS At1_01 Att 12 AN1_02 4 AMAA \ oe ZA) TB et =P} | 12-409 * AA2-1049) = A12-4040 A12-1807, M2406 121102) AM2-947) = AI24145 ASZANN2 RAZMEA4 AA2-9001 , AA24043 ly » ' a“ a\ jee’
+
+TAN i Ring . 124.09 =m 184254149 oat Ki24.20 4 ESD ANZAL2 4474.46 AN2-415 = , Al2-1044 reps @) Rn A AA2-4-42 A12-443
+
+AS Aral
+
+€ 3p AE vs 25D AS aO|O] Ag-o|=
+
+3p AE vs 25D AS aO|O] Ag-o|=
+
+22
+
+22
+
+22
+
+Danes] ow € & ee
+
+=,
+
+cae ACRES Caza. 57a) Danes] ow € & ee AaB 2/7] da opfo|Het2| wa) sof at AEs as Ein Be TELE
+
+cae ACRES Caza. 57a) Danes] ow € & ee AaB 2/7] da opfo|Het2| wa) sof at AEs as Ein Be TELE
+
+Danes] ow € & ee sof at Ein Be TELE SS tel 7S Als",,
+,,,"\s= MHOlRel64S) Hie +e HA\
+
+AS Aral
+
+C SSANHA — Aes, CCIV MAA ES A AlSalOl’ ZlS Als}
+
+SSANHA — Aes, CCIV MAA ES A AlSalOl’ ZlS Als}
+
+AAS AALS aA
+
+Rowen BOD izes SST we AS C+ v cele ea =20 40) 2224 Naesn aA ZIMA THAIS bt + ABET Bet PALAIMGS CHBIOY AAW + AMEXIS Ete S]
+
+Rowen BOD izes SST we AS C+ v cele ea =20 40) 2224 Naesn aA ZIMA THAIS bt + ABET Bet PALAIMGS CHBIOY AAW + AMEXIS Ete S]
+
+a: ABA [Chey ey - ees MEA BITS} ~~ 24 aA ee - ee EEE 24/0] 3: goyang_subway_track ee 1: DF7CF51B-2063-4EC8-B4F4-GA895A534FEG ‘a zr £ 5 __ FTR_IDN : 2019020008.0000000000 FTR_CDE : AE903 HJD_CDE : 4128000000 sd MNG_CDE : B551457 . _ GRD_CDE : SIPOOO * 2008 __ FAC_CDE : FACO00 LIN_CDE : LINOO1 We RAL_CDE : RALO01 etpl2s3] - gauss TOT | FN 725 R4n0000000 - Sut esa - eres at ma
+
+neAlSy S= + HBAS Be ABHaS We + HEEAIS etpl2s3] ee v aga 132 vee sey 38 MONEE Sautt 2023-08-09
+
+a: ABA [Chey ey - ees MEA BITS} ~~ 24 aA ee - ee EEE 24/0] 3: goyang_subway_track ee 1: DF7CF51B-2063-4EC8-B4F4-GA895A534FEG ‘a zr £ 5 __ FTR_IDN : 2019020008.0000000000 FTR_CDE : AE903 HJD_CDE : 4128000000 sd MNG_CDE : B551457 . _ GRD_CDE : SIPOOO * 2008 __ FAC_CDE : FACO00 LIN_CDE : LINOO1 RAL_CDE : RALO01 - gauss TOT | FN 725 R4n0000000 - Sut esa - eres at ma
+
+a: ABA [Chey ey - ees MEA BITS} neAlSy S= - ee EEE ee + HBAS Be ‘a zr £ 5 . * 2008 ABHaS We + HEEAIS etpl2s3] ee - gauss vee sey - Sut esa - eres at ma 25
+
+25
+
+25
+
+04 AS AAs gal
+
+C BIM #2 AHA
+
+BIM #2 AHA
+
+CrOFSt BIM At
+
+HSH
+
+26
+
+26
+
+26",,

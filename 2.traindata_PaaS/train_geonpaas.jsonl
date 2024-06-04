@@ -1,0 +1,515 @@
+{"instruction": "GeOnPaaS 제품의 주요 제공 기능은 무엇입니까?", "output": "GeOnPaaS는 GeOn API, GeOn Builder, GeOn Client, GeOn DevCenter 등의 주요 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 특장점은 무엇입니까?", "output": "GeOnPaaS는 전자정부 표준 프레임워크에 오픈GIS 기술을 적용한 공간정보 시스템 개발 프레임워크로, 고급 GIS 사용자를 위해 지도 기반의 앱을 UI 기반으로 저작할 수 있는 환경을 제공하며, 웹 기반 공간정보서비스 개발을 위한 JavaScript API를 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 API를 제공합니까?", "output": "GeOnPaaS는 REST API를 제공하여 공간정보 서비스 제공을 위한 다양한 기능을 지원합니다."}
+{"instruction": "GeOn Builder의 주요 기능은 무엇입니까?", "output": "GeOn Builder는 지도 빌더와 앱 빌더 기능을 제공하여 레이어 관리, 주제도 설정, 테마 생성 및 각종 위젯 도구를 제공합니다. 지도 빌더 기능은 레이어 스타일 편집 및 관리 기능을 제공합니다. 앱 빌더 기능은 테마 생성/관리, 지도 기반 앱 생성 기능을 제공합니다."}
+{"instruction": "GeOn Client의 주요 기능은 무엇입니까?", "output": "GeOn Client는 지도 제어, 지도 관리, 위젯 관리 및 정보 융합 기능을 제공합니다. 지도 제어 기능은 Map 생성, Zoom/Pan, 측정 등의 기능을 제공합니다. 지도 관리 기능은 레이어 및 지도 콘텐츠 관련 관리 및 제어 기능을 제공합니다. 위젯 관리 기능은 즉시 사용 가능한 기능을 아이콘으로 제공하여 켜거나 끌 수 있습니다. 정보 융합 기능은 점, 선, 면, 정보창, WMS/WFS, KML 등과 지도 융합 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter의 주요 기능은 무엇입니까?", "output": "GeOn DevCenter는 API 사양문서, 개발 가이드, 지도 샘플, 자동완성 기능 등을 제공하여 개발 편의성을 높입니다. API 사양문서는 제공 API의 설명, In 파라미터 설명, 예외처리 등을 제공합니다. 개발 가이드는 REST 및 JavaScript API를 활용한 지도 App 개발에 대한 상세 가이드를 제공합니다. 지도 샘플은 주요 지도 App에 대한 샘플 개발 소스를 제공합니다. 자동완성 기능은 필요한 기능 선택을 통한 소스 자동 생성을 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 오픈소스를 활용합니까?", "output": "GeOnPaaS는 GeoServer, PostgreSQL 등 검증된 오픈소스를 활용합니다."}
+{"instruction": "GeOnPaaS의 시스템 구성 요소는 무엇입니까?", "output": "GeOnPaaS는 GeOn API 서버, GeOn Builder, GeOn Client, GeOn DevCenter 등으로 구성됩니다."}
+{"instruction": "GeOnPaaS의 클라우드 기반 인프라는 무엇입니까?", "output": "GeOnPaaS는 클라우드 기반 인프라로 GeoServer와 PostgreSQL + PostGIS를 사용합니다."}
+{"instruction": "GeOnPaaS의 데이터 표준은 무엇입니까?", "output": "GeOnPaaS는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 준수합니다."}
+{"instruction": "GeOnPaaS는 어떤 웹 표준을 준수합니까?", "output": "GeOnPaaS는 웹 표준 EC6을 준수합니다."}
+{"instruction": "GeOnPaaS의 주요 제공 서비스는 무엇입니까?", "output": "GeOnPaaS는 공간분석, 공간연산, 공간정보 관리, 검색 등의 서비스를 제공합니다."}
+{"instruction": "GeOnPaaS의 공간분석 기능은 무엇입니까?", "output": "GeOnPaaS는 공간 패턴, 데이터 요약/관리, 근접도 분석, 위치 찾기 분석 등의 공간분석 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 공간연산 기능은 무엇입니까?", "output": "GeOnPaaS는 Contains, Within, Intersect 등의 2D 공간 연산 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 공간정보 관리 기능은 무엇입니까?", "output": "GeOnPaaS는 공간업로드, 다운로드, 레이어 관리, 지도/앱 콘텐츠 관리 등의 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 검색 기능은 무엇입니까?", "output": "GeOnPaaS는 지오코딩, POI, 속성 검색 등의 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 시스템 요구사항은 무엇입니까?", "output": "GeOnPaaS의 시스템 요구사항은 x86 PC 기반의 Linux 계열의 운영체제와 GeoServer, PostgreSQL 등의 오픈소스를 사용합니다."}
+{"instruction": "GeOnPaaS의 주요 대상 고객은 누구입니까?", "output": "GeOnPaaS의 주요 대상 고객은 정부기관, 기업, 일반 사용자입니다."}
+{"instruction": "GeOnPaaS는 어떤 지도 서비스를 제공합니까?", "output": "GeOnPaaS는 WMS, WFS, WMTS 등의 OGC 표준 서비스와 관련된 지도 서비스를 제공합니다."}
+{"instruction": "GeOnPaaS의 유지보수는 어떻게 이루어집니까?", "output": "GeOnPaaS의 유지보수는 별도의 운영자 매뉴얼을 통해 지원됩니다."}
+{"instruction": "GeOnPaaS의 데이터 백업 및 복구 기능은 무엇입니까?", "output": "GeOnPaaS는 사용자 매뉴얼을 통해 데이터 백업 및 복구 절차를 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 개발 언어를 사용합니까?", "output": "GeOnPaaS는 JavaScript를 사용하여 웹 기반 공간정보서비스를 개발합니다."}
+{"instruction": "GeOnPaaS의 설치 절차는 어떻게 확인할 수 있습니까?", "output": "GeOnPaaS의 설치 절차는 운영자 매뉴얼을 통해 확인할 수 있습니다."}
+{"instruction": "GeOnPaaS의 API 문서는 무엇입니까?", "output": "GeOnPaaS의 API 문서는 각종 API에 대해 웹 UI 기반의 문서 설명을 제공합니다."}
+{"instruction": "GeOnPaaS의 개발 환경은 어떻게 제공됩니까?", "output": "GeOnPaaS는 웹 기반 공간정보서비스 개발을 위한 JavaScript API를 제공하여 개발 환경을 지원합니다."}
+{"instruction": "GeOnPaaS의 주요 활용 사례는 무엇입니까?", "output": "GeOnPaaS는 국토교통부의 K-Geo 플랫폼, LX의 국토정보플랫폼, 충북도의 스마트 공간정보플랫폼 등에 활용되었습니다."}
+{"instruction": "GeOnPaaS의 향후 계획은 무엇입니까?", "output": "GeOnPaaS는 향후 2~3개년간 지속적으로 수행 예정이며, 다양한 레퍼런스를 바탕으로 이후에도 지속적인 공간정보 플랫폼 매출 확장을 전망하고 있습니다."}
+{"instruction": "GeOn API의 주요 기능은 무엇입니까?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 제공하며, 공간분석, 공간연산, 공간정보 관리, 검색 기능을 지원합니다."}
+{"instruction": "GeOn API는 어떤 표준을 준수합니까?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS와 웹 표준 EC6을 준수합니다."}
+{"instruction": "GeOn API는 어떤 종류의 공간분석을 제공합니까?", "output": "GeOn API는 공간 패턴 분석, 데이터 요약/관리, 근접도 분석, 위치 찾기 분석 등의 공간분석 기능을 제공합니다."}
+{"instruction": "GeOn API의 공간연산 기능은 무엇입니까?", "output": "GeOn API는 Contains, Within, Intersect 등의 2D 공간 연산 기능을 제공합니다."}
+{"instruction": "GeOn API의 공간정보 관리 기능은 무엇입니까?", "output": "GeOn API는 공간업로드, 다운로드, 레이어 관리, 지도/앱 콘텐츠 관리 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 검색 기능은 무엇입니까?", "output": "GeOn API는 지오코딩, POI, 속성 검색 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 레이어 관리 기능은 무엇입니까?", "output": "GeOn API는 레이어 스타일 편집 및 관리 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 개발 언어를 사용합니까?", "output": "GeOn API는 JavaScript를 사용하여 웹 기반 공간정보서비스를 개발합니다."}
+{"instruction": "GeOn API의 설치 절차는 어디서 확인할 수 있습니까?", "output": "GeOn API의 설치 절차는 운영자 매뉴얼을 통해 확인할 수 있습니다."}
+{"instruction": "GeOn API의 데이터 백업 및 복구 기능은 무엇입니까?", "output": "GeOn API는 사용자 매뉴얼을 통해 데이터 백업 및 복구 절차를 제공합니다."}
+{"instruction": "GeOn API의 유지보수는 어떻게 이루어집니까?", "output": "GeOn API의 유지보수는 별도의 운영자 매뉴얼을 통해 지원됩니다."}
+{"instruction": "GeOn API는 어떤 클라우드 기반 인프라를 사용합니까?", "output": "GeOn API는 GeoServer와 PostgreSQL + PostGIS를 포함한 클라우드 기반 인프라를 사용합니다."}
+{"instruction": "GeOn API의 주요 제공 서비스는 무엇입니까?", "output": "GeOn API는 공간분석, 공간연산, 공간정보 관리, 검색 등의 서비스를 제공합니다."}
+{"instruction": "GeOn API의 공간정보 관리 기능은 무엇입니까?", "output": "GeOn API는 공간업로드, 다운로드, 레이어 관리, 지도/앱 콘텐츠 관리 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 개발 환경은 어떻게 제공됩니까?", "output": "GeOn API는 웹 기반 공간정보서비스 개발을 위한 JavaScript API를 제공하여 개발 환경을 지원합니다."}
+{"instruction": "GeOn API의 API 문서는 무엇입니까?", "output": "GeOn API의 API 문서는 각종 API에 대해 웹 UI 기반의 문서 설명을 제공합니다."}
+{"instruction": "GeOn API는 어떤 오픈소스를 활용합니까?", "output": "GeOn API는 GeoServer, PostgreSQL 등 검증된 오픈소스를 활용합니다."}
+{"instruction": "GeOn API의 시스템 요구사항은 무엇입니까?", "output": "GeOn API의 시스템 요구사항은 x86 PC 기반의 Linux 계열의 운영체제와 GeoServer, PostgreSQL 등의 오픈소스를 사용합니다."}
+{"instruction": "GeOn API의 주요 대상 고객은 누구입니까?", "output": "GeOn API의 주요 대상 고객은 정부기관, 기업, 일반 사용자입니다."}
+{"instruction": "GeOn API는 어떤 지도 서비스를 제공합니까?", "output": "GeOn API는 WMS, WFS, WMTS 등의 OGC 표준 서비스와 관련된 지도 서비스를 제공합니다."}
+{"instruction": "GeOn API의 데이터 표준은 무엇입니까?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 준수합니다."}
+{"instruction": "GeOn API의 설치 절차는 어떻게 확인할 수 있습니까?", "output": "GeOn API의 설치 절차는 운영자 매뉴얼을 통해 확인할 수 있습니다."}
+{"instruction": "GeOn API의 개발 가이드는 무엇입니까?", "output": "GeOn API의 개발 가이드는 REST 및 JavaScript API를 활용한 지도 App 개발에 대한 상세 가이드를 제공합니다."}
+{"instruction": "GeOn API의 지도 샘플은 무엇입니까?", "output": "GeOn API의 지도 샘플은 주요 지도 App에 대한 샘플 개발 소스를 제공합니다."}
+{"instruction": "GeOn API의 자동완성 기능은 무엇입니까?", "output": "GeOn API의 자동완성 기능은 필요한 기능 선택을 통한 소스 자동 생성을 제공합니다."}
+{"instruction": "GeOn API는 어떤 환경을 제공합니까?", "output": "GeOn API는 스마트시티, 디지털 트윈, 메타버스 생태계 내에서 솔루션을 통해 정보를 손쉽게 소비할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOn API의 주요 활용 사례는 무엇입니까?", "output": "GeOn API는 국토교통부의 K-Geo 플랫폼, LX의 국토정보플랫폼, 충북도의 스마트 공간정보플랫폼 등에 활용되었습니다."}
+{"instruction": "GeOn API의 향후 계획은 무엇입니까?", "output": "GeOn API는 향후 2~3개년간 지속적으로 수행 예정이며, 다양한 레퍼런스를 바탕으로 이후에도 지속적인 공간정보 플랫폼 매출 확장을 전망하고 있습니다."}
+{"instruction": "GeOn API는 어떤 클라우드 기반 인프라를 사용합니까?", "output": "GeOn API는 클라우드 기반 인프라로 GeoServer와 PostgreSQL + PostGIS를 사용합니다."}
+{"instruction": "GeOn API의 유지보수는 어떻게 이루어집니까?", "output": "GeOn API의 유지보수는 별도의 운영자 매뉴얼을 통해 지원됩니다."}
+{"instruction": "GeOn API의 성능은 어떻게 최적화되었습니까?", "output": "GeOn API는 고성능 데이터 처리와 효율적인 자원 관리를 위해 최적화된 아키텍처를 채택하고 있습니다."}
+{"instruction": "GeOn API의 보안 기능은 무엇입니까?", "output": "GeOn API는 데이터 암호화, 인증 및 권한 관리를 통해 높은 수준의 보안을 제공합니다."}
+{"instruction": "GeOn API는 어떤 데이터 형식을 지원합니까?", "output": "GeOn API는 GeoJSON, KML, GML 등의 다양한 공간 데이터 형식을 지원합니다."}
+{"instruction": "GeOn API는 어떤 프로토콜을 사용합니까?", "output": "GeOn API는 HTTP/HTTPS 프로토콜을 사용하여 데이터 통신을 수행합니다."}
+{"instruction": "GeOn API의 요청 한도는 어떻게 설정됩니까?", "output": "GeOn API는 사용자 계정별로 일일 요청 한도를 설정하여 서비스 안정성을 유지합니다."}
+{"instruction": "GeOn API는 어떤 로깅 및 모니터링 기능을 제공합니까?", "output": "GeOn API는 실시간 로그 기록 및 모니터링 기능을 제공하여 서비스 운영 상태를 점검할 수 있습니다."}
+{"instruction": "GeOn API의 에러 처리 방식은 무엇입니까?", "output": "GeOn API는 표준 HTTP 상태 코드와 자세한 에러 메시지를 통해 에러 원인을 명확히 전달합니다."}
+{"instruction": "GeOn API는 어떤 캐싱 전략을 사용합니까?", "output": "GeOn API는 클라이언트 및 서버 측 캐싱을 통해 응답 시간을 단축하고 트래픽 부하를 줄입니다."}
+{"instruction": "GeOn API의 버전 관리 정책은 무엇입니까?", "output": "GeOn API는 버전 관리를 통해 하위 호환성을 유지하며, 새로운 기능과 개선 사항을 지속적으로 추가합니다."}
+{"instruction": "GeOn API의 데이터 갱신 주기는 어떻게 설정됩니까?", "output": "GeOn API는 실시간 데이터 갱신을 지원하며, 정기적인 데이터 업데이트 주기를 설정할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 형태의 문서화를 제공합니까?", "output": "GeOn API는 상세한 개발자 문서, 예제 코드 및 API 참조 문서를 제공합니다."}
+{"instruction": "GeOn API는 어떤 종류의 인증 방식을 지원합니까?", "output": "GeOn API는 OAuth 2.0, API Key 등의 다양한 인증 방식을 지원합니다."}
+{"instruction": "GeOn API는 데이터 압축을 지원합니까?", "output": "GeOn API는 GZIP을 통한 데이터 압축을 지원하여 전송 효율성을 높입니다."}
+{"instruction": "GeOn API는 사용자 피드백을 어떻게 처리합니까?", "output": "GeOn API는 사용자 피드백을 수집하고 분석하여 서비스 개선에 반영합니다."}
+{"instruction": "GeOn API는 어떤 유형의 데이터 분석을 지원합니까?", "output": "GeOn API는 공간 분석, 시계열 분석, 통계 분석 등의 다양한 데이터 분석 기능을 지원합니다."}
+{"instruction": "GeOn API는 어떤 데이터 변환 기능을 제공합니까?", "output": "GeOn API는 좌표 변환, 형식 변환 등의 데이터 변환 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 식으로 확장성을 제공합니까?", "output": "GeOn API는 모듈화된 설계를 통해 다양한 플러그인과 확장 기능을 쉽게 통합할 수 있습니다."}
+{"instruction": "GeOn API는 데이터 시각화를 지원합니까?", "output": "GeOn API는 다양한 데이터 시각화 도구와 통합되어 사용자가 데이터를 쉽게 분석할 수 있도록 지원합니다."}
+{"instruction": "GeOn API는 어떤 데이터 통합 기능을 제공합니까?", "output": "GeOn API는 다양한 외부 데이터 소스와의 통합을 지원하여 포괄적인 데이터 분석을 가능하게 합니다."}
+{"instruction": "GeOn API는 어떤 식으로 성능을 모니터링합니까?", "output": "GeOn API는 성능 모니터링 도구를 통해 실시간으로 시스템 상태와 성능 지표를 확인할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 종류의 개발자 지원을 제공합니까?", "output": "GeOn API는 기술 지원, 포럼, 튜토리얼 등의 다양한 개발자 지원 서비스를 제공합니다."}
+{"instruction": "GeOn API의 주요 사용 사례는 무엇입니까?", "output": "GeOn API는 스마트 시티 구축, 환경 모니터링, 위치 기반 서비스 등 다양한 분야에서 활용됩니다."}
+{"instruction": "GeOn API는 어떤 플랫폼에서 사용할 수 있습니까?", "output": "GeOn API는 웹, 모바일, 데스크탑 등 다양한 플랫폼에서 사용할 수 있습니다."}
+{"instruction": "GeOn API의 주요 파트너는 누구입니까?", "output": "GeOn API는 여러 정부 기관, 기업 및 연구 기관과 협력하고 있습니다."}
+{"instruction": "GeOn API는 어떤 식으로 데이터를 수집합니까?", "output": "GeOn API는 센서, 위성, 사용자 입력 등 다양한 방법으로 데이터를 수집합니다."}
+{"instruction": "GeOn API는 어떤 개발 도구와 호환됩니까?", "output": "GeOn API는 다양한 IDE와 호환되며, Eclipse, Visual Studio Code 등에서 사용할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 형식의 출력을 지원합니까?", "output": "GeOn API는 JSON, XML 등 다양한 출력 형식을 지원합니다."}
+{"instruction": "GeOn API는 데이터 필터링 기능을 제공합니까?", "output": "GeOn API는 사용자 정의 필터를 통해 필요한 데이터만 추출할 수 있는 필터링 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 식으로 배포됩니까?", "output": "GeOn API는 Docker 컨테이너, VM 이미지 등 다양한 방식으로 배포될 수 있습니다."}
+{"instruction": "GeOn API는 데이터 시뮬레이션 기능을 제공합니까?", "output": "GeOn API는 가상 데이터를 생성하여 시뮬레이션 분석을 할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn API의 성능은 어떻게 최적화되었습니까?", "output": "GeOn API는 고성능 데이터 처리와 효율적인 자원 관리를 위해 최적화된 아키텍처를 채택하고 있습니다."}
+{"instruction": "GeOn API의 보안 기능은 무엇입니까?", "output": "GeOn API는 데이터 암호화, 인증 및 권한 관리를 통해 높은 수준의 보안을 제공합니다."}
+{"instruction": "GeOn API는 어떤 데이터 형식을 지원합니까?", "output": "GeOn API는 GeoJSON, KML, GML 등의 다양한 공간 데이터 형식을 지원합니다."}
+{"instruction": "GeOn API는 어떤 프로토콜을 사용합니까?", "output": "GeOn API는 HTTP/HTTPS 프로토콜을 사용하여 데이터 통신을 수행합니다."}
+{"instruction": "GeOn API의 요청 한도는 어떻게 설정됩니까?", "output": "GeOn API는 사용자 계정별로 일일 요청 한도를 설정하여 서비스 안정성을 유지합니다."}
+{"instruction": "GeOn API는 어떤 로깅 및 모니터링 기능을 제공합니까?", "output": "GeOn API는 실시간 로그 기록 및 모니터링 기능을 제공하여 서비스 운영 상태를 점검할 수 있습니다."}
+{"instruction": "GeOn API의 에러 처리 방식은 무엇입니까?", "output": "GeOn API는 표준 HTTP 상태 코드와 자세한 에러 메시지를 통해 에러 원인을 명확히 전달합니다."}
+{"instruction": "GeOn API는 어떤 캐싱 전략을 사용합니까?", "output": "GeOn API는 클라이언트 및 서버 측 캐싱을 통해 응답 시간을 단축하고 트래픽 부하를 줄입니다."}
+{"instruction": "GeOn API의 버전 관리 정책은 무엇입니까?", "output": "GeOn API는 버전 관리를 통해 하위 호환성을 유지하며, 새로운 기능과 개선 사항을 지속적으로 추가합니다."}
+{"instruction": "GeOn API의 데이터 갱신 주기는 어떻게 설정됩니까?", "output": "GeOn API는 실시간 데이터 갱신을 지원하며, 정기적인 데이터 업데이트 주기를 설정할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 형태의 문서화를 제공합니까?", "output": "GeOn API는 상세한 개발자 문서, 예제 코드 및 API 참조 문서를 제공합니다."}
+{"instruction": "GeOn API는 어떤 종류의 인증 방식을 지원합니까?", "output": "GeOn API는 OAuth 2.0, API Key 등의 다양한 인증 방식을 지원합니다."}
+{"instruction": "GeOn API는 데이터 압축을 지원합니까?", "output": "GeOn API는 GZIP을 통한 데이터 압축을 지원하여 전송 효율성을 높입니다."}
+{"instruction": "GeOn API는 사용자 피드백을 어떻게 처리합니까?", "output": "GeOn API는 사용자 피드백을 수집하고 분석하여 서비스 개선에 반영합니다."}
+{"instruction": "GeOn API는 어떤 유형의 데이터 분석을 지원합니까?", "output": "GeOn API는 공간 분석, 시계열 분석, 통계 분석 등의 다양한 데이터 분석 기능을 지원합니다."}
+{"instruction": "GeOn API는 어떤 데이터 변환 기능을 제공합니까?", "output": "GeOn API는 좌표 변환, 형식 변환 등의 데이터 변환 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 식으로 확장성을 제공합니까?", "output": "GeOn API는 모듈화된 설계를 통해 다양한 플러그인과 확장 기능을 쉽게 통합할 수 있습니다."}
+{"instruction": "GeOn API는 데이터 시각화를 지원합니까?", "output": "GeOn API는 다양한 데이터 시각화 도구와 통합되어 사용자가 데이터를 쉽게 분석할 수 있도록 지원합니다."}
+{"instruction": "GeOn API는 어떤 데이터 통합 기능을 제공합니까?", "output": "GeOn API는 다양한 외부 데이터 소스와의 통합을 지원하여 포괄적인 데이터 분석을 가능하게 합니다."}
+{"instruction": "GeOn API는 어떤 식으로 성능을 모니터링합니까?", "output": "GeOn API는 성능 모니터링 도구를 통해 실시간으로 시스템 상태와 성능 지표를 확인할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 종류의 개발자 지원을 제공합니까?", "output": "GeOn API는 기술 지원, 포럼, 튜토리얼 등의 다양한 개발자 지원 서비스를 제공합니다."}
+{"instruction": "GeOn API의 주요 사용 사례는 무엇입니까?", "output": "GeOn API는 스마트 시티 구축, 환경 모니터링, 위치 기반 서비스 등 다양한 분야에서 활용됩니다."}
+{"instruction": "GeOn API는 어떤 플랫폼에서 사용할 수 있습니까?", "output": "GeOn API는 웹, 모바일, 데스크탑 등 다양한 플랫폼에서 사용할 수 있습니다."}
+{"instruction": "GeOn API의 주요 파트너는 누구입니까?", "output": "GeOn API는 여러 정부 기관, 기업 및 연구 기관과 협력하고 있습니다."}
+{"instruction": "GeOn API는 어떤 식으로 데이터를 수집합니까?", "output": "GeOn API는 센서, 위성, 사용자 입력 등 다양한 방법으로 데이터를 수집합니다."}
+{"instruction": "GeOn API는 어떤 개발 도구와 호환됩니까?", "output": "GeOn API는 다양한 IDE와 호환되며, Eclipse, Visual Studio Code 등에서 사용할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 형식의 출력을 지원합니까?", "output": "GeOn API는 JSON, XML 등 다양한 출력 형식을 지원합니다."}
+{"instruction": "GeOn API는 데이터 필터링 기능을 제공합니까?", "output": "GeOn API는 사용자 정의 필터를 통해 필요한 데이터만 추출할 수 있는 필터링 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 식으로 배포됩니까?", "output": "GeOn API는 Docker 컨테이너, VM 이미지 등 다양한 방식으로 배포될 수 있습니다."}
+{"instruction": "GeOn API는 데이터 시뮬레이션 기능을 제공합니까?", "output": "GeOn API는 가상 데이터를 생성하여 시뮬레이션 분석을 할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Builder의 주요 기능은 무엇입니까?", "output": "GeOn Builder는 지도 빌더와 앱 빌더 기능을 제공하여 레이어 관리, 주제도 설정, 테마 생성 및 각종 위젯 도구를 제공합니다."}
+{"instruction": "GeOn Builder의 지도 빌더 기능은 무엇입니까?", "output": "GeOn Builder의 지도 빌더는 레이어 스타일 편집 및 관리 기능을 제공합니다."}
+{"instruction": "GeOn Builder의 앱 빌더 기능은 무엇입니까?", "output": "GeOn Builder의 앱 빌더는 테마 생성/관리, 지도 기반 앱 생성 기능을 제공합니다."}
+{"instruction": "GeOn Builder의 주제도 기능은 무엇입니까?", "output": "GeOn Builder는 지도 상의 레이어와 융합한 정보를 설정 및 저장하여 주제도로 활용할 수 있습니다."}
+{"instruction": "GeOn Builder는 어떤 테마 생성 기능을 제공합니까?", "output": "GeOn Builder는 다양한 테마 생성 및 관리 기능을 제공합니다."}
+{"instruction": "GeOn Builder의 위젯 도구는 무엇입니까?", "output": "GeOn Builder는 지도 관련 다양한 위젯 도구를 제공합니다."}
+{"instruction": "GeOn Builder의 레이어 관리 기능은 무엇입니까?", "output": "GeOn Builder는 레이어의 스타일 편집 및 관리 기능을 제공합니다."}
+{"instruction": "GeOn Builder의 지도 빌더는 어떤 기능을 포함합니까?", "output": "GeOn Builder의 지도 빌더는 레이어 스타일 편집, 주제도 설정, 융합 정보 저장 기능을 포함합니다."}
+{"instruction": "GeOn Builder의 사용자 인터페이스는 어떤 특징이 있습니까?", "output": "GeOn Builder는 직관적인 사용자 인터페이스를 통해 고급 GIS 사용자가 쉽게 사용할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 개발 언어를 지원합니까?", "output": "GeOn Builder는 JavaScript와 같은 웹 개발 언어를 지원합니다."}
+{"instruction": "GeOn Builder는 어떤 사용자 그룹을 대상으로 합니까?", "output": "GeOn Builder는 고급 GIS 사용자를 대상으로 지도 기반 앱을 쉽게 저작할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOn Builder의 통합 기능은 무엇입니까?", "output": "GeOn Builder는 다양한 지도 레이어와 데이터를 통합하여 하나의 주제도로 설정할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 유형의 데이터를 지원합니까?", "output": "GeOn Builder는 점, 선, 면 등 다양한 지리적 데이터를 지원합니다."}
+{"instruction": "GeOn Builder의 협업 기능은 무엇입니까?", "output": "GeOn Builder는 여러 사용자가 동시에 작업할 수 있는 협업 기능을 제공합니다."}
+{"instruction": "GeOn Builder의 커스터마이징 기능은 무엇입니까?", "output": "GeOn Builder는 사용자 정의 위젯과 테마를 만들 수 있는 커스터마이징 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 형식의 출력물을 제공합니까?", "output": "GeOn Builder는 다양한 지도 형식과 데이터 파일 형식으로 출력물을 제공합니다."}
+{"instruction": "GeOn Builder의 데이터 시각화 기능은 무엇입니까?", "output": "GeOn Builder는 데이터를 시각적으로 표현할 수 있는 다양한 도구를 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 플러그인 시스템을 지원합니까?", "output": "GeOn Builder는 사용자 정의 플러그인을 통해 기능을 확장할 수 있는 시스템을 지원합니다."}
+{"instruction": "GeOn Builder의 보안 기능은 무엇입니까?", "output": "GeOn Builder는 사용자 인증 및 데이터 암호화를 통해 높은 보안 수준을 유지합니다."}
+{"instruction": "GeOn Builder의 성능 최적화는 어떻게 이루어집니까?", "output": "GeOn Builder는 효율적인 데이터 처리와 자원 관리를 통해 성능을 최적화합니다."}
+{"instruction": "GeOn Builder의 사용 편의성은 어떻게 보장됩니까?", "output": "GeOn Builder는 직관적인 UI와 다양한 도움말을 통해 사용 편의성을 보장합니다."}
+{"instruction": "GeOn Builder의 배포 옵션은 무엇입니까?", "output": "GeOn Builder는 클라우드 및 온프레미스 환경에서 모두 배포가 가능합니다."}
+{"instruction": "GeOn Builder는 어떤 유형의 프로젝트에 적합합니까?", "output": "GeOn Builder는 스마트 시티, 환경 모니터링, 위치 기반 서비스 등의 프로젝트에 적합합니다."}
+{"instruction": "GeOn Builder의 데이터 통합 기능은 무엇입니까?", "output": "GeOn Builder는 다양한 데이터 소스를 통합하여 일관된 지도 서비스를 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 GIS 표준을 준수합니까?", "output": "GeOn Builder는 OGC 표준을 준수하여 호환성을 보장합니다."}
+{"instruction": "GeOn Builder의 교육 자료는 무엇을 포함합니까?", "output": "GeOn Builder는 사용자 매뉴얼, 튜토리얼, 교육 영상 등을 포함한 다양한 교육 자료를 제공합니다."}
+{"instruction": "GeOn Builder의 데이터 관리 기능은 무엇입니까?", "output": "GeOn Builder는 데이터 업로드, 다운로드, 저장 및 백업 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 지원 서비스를 제공합니까?", "output": "GeOn Builder는 기술 지원, 유지보수 및 업데이트 서비스를 제공합니다."}
+{"instruction": "GeOn Builder의 사용자 피드백 처리 방식은 무엇입니까?", "output": "GeOn Builder는 사용자 피드백을 적극 수렴하여 제품 개선에 반영합니다."}
+{"instruction": "GeOn Builder는 어떤 운영 체제에서 동작합니까?", "output": "GeOn Builder는 Windows, macOS, Linux 등 다양한 운영 체제에서 동작합니다."}
+{"instruction": "GeOn Builder의 로드맵은 무엇입니까?", "output": "GeOn Builder는 향후 기능 확장 및 성능 개선을 위한 로드맵을 지속적으로 업데이트하고 있습니다."}
+{"instruction": "GeOn Builder는 어떤 지도 유형을 지원합니까?", "output": "GeOn Builder는 위성 지도, 거리 지도, 하이브리드 지도를 포함한 다양한 지도 유형을 지원합니다."}
+{"instruction": "GeOn Builder는 모바일 기기에서 사용할 수 있습니까?", "output": "GeOn Builder는 모바일 최적화 기능을 통해 다양한 모바일 기기에서도 사용할 수 있습니다."}
+{"instruction": "GeOn Builder는 어떤 배포 옵션을 제공합니까?", "output": "GeOn Builder는 클라우드 기반과 온프레미스 환경 모두에서 배포가 가능합니다."}
+{"instruction": "GeOn Builder의 대시보드 기능은 무엇입니까?", "output": "GeOn Builder는 사용자 정의 대시보드를 제공하여 실시간 데이터를 시각화할 수 있습니다."}
+{"instruction": "GeOn Builder는 어떤 형식의 데이터 가져오기를 지원합니까?", "output": "GeOn Builder는 CSV, Excel, Shapefile 등의 다양한 데이터 형식의 가져오기를 지원합니다."}
+{"instruction": "GeOn Builder는 어떤 데이터베이스와 호환됩니까?", "output": "GeOn Builder는 PostgreSQL, MySQL, Oracle 등 다양한 데이터베이스와 호환됩니다."}
+{"instruction": "GeOn Builder의 버전 관리 기능은 무엇입니까?", "output": "GeOn Builder는 프로젝트의 버전 관리를 통해 변경 이력을 추적하고 복원할 수 있습니다."}
+{"instruction": "GeOn Builder의 데이터 분석 기능은 무엇입니까?", "output": "GeOn Builder는 통계 분석, 시각적 분석, 공간 분석 등의 데이터 분석 기능을 제공합니다."}
+{"instruction": "GeOn Builder의 보고서 생성 기능은 무엇입니까?", "output": "GeOn Builder는 사용자 정의 보고서를 생성하여 데이터를 공유하고 시각화할 수 있습니다."}
+{"instruction": "GeOn Builder의 사용자 정의 위젯 기능은 무엇입니까?", "output": "GeOn Builder는 사용자 정의 위젯을 생성하여 특정 기능을 확장할 수 있습니다."}
+{"instruction": "GeOn Builder는 실시간 데이터를 지원합니까?", "output": "GeOn Builder는 실시간 데이터 피드를 통합하여 실시간으로 데이터를 업데이트할 수 있습니다."}
+{"instruction": "GeOn Builder는 어떤 보안 인증을 지원합니까?", "output": "GeOn Builder는 OAuth 2.0, SAML 등의 보안 인증을 지원합니다."}
+{"instruction": "GeOn Builder의 스케줄링 기능은 무엇입니까?", "output": "GeOn Builder는 데이터 업데이트와 작업을 자동화할 수 있는 스케줄링 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 다국어 지원이 가능합니까?", "output": "GeOn Builder는 다국어 지원을 통해 다양한 언어로 사용자 인터페이스를 제공할 수 있습니다."}
+{"instruction": "GeOn Builder는 어떤 협업 도구를 제공합니까?", "output": "GeOn Builder는 팀 협업을 위한 주석 달기, 버전 공유, 공동 작업 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 API 통합을 지원합니까?", "output": "GeOn Builder는 RESTful API를 통해 외부 서비스와의 통합을 지원합니다."}
+{"instruction": "GeOn Builder는 백업 및 복원 기능을 제공합니까?", "output": "GeOn Builder는 정기적인 백업과 손쉬운 복원 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 알림 기능을 제공합니까?", "output": "GeOn Builder는 이메일, SMS 등을 통한 다양한 알림 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 데이터 정제 기능을 제공합니까?", "output": "GeOn Builder는 데이터 정제를 위한 필터링, 정규화, 중복 제거 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 매핑 기능을 제공합니까?", "output": "GeOn Builder는 사용자 정의 매핑 규칙을 설정하여 데이터를 매핑할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 로그 분석 기능을 제공합니까?", "output": "GeOn Builder는 시스템 로그를 분석하여 사용자 활동 및 시스템 상태를 모니터링할 수 있습니다."}
+{"instruction": "GeOn Builder의 데이터 모델링 기능은 무엇입니까?", "output": "GeOn Builder는 다양한 데이터 모델을 설계하고 시각화할 수 있는 데이터 모델링 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 프로젝트 관리 기능을 제공합니까?", "output": "GeOn Builder는 프로젝트 계획, 진행 상태 추적, 팀 할당 등의 프로젝트 관리 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 사용자 정의 스타일 기능을 제공합니까?", "output": "GeOn Builder는 사용자 정의 스타일을 적용하여 지도의 외관을 원하는 대로 조정할 수 있습니다."}
+{"instruction": "GeOn Builder는 어떤 형식의 출력물을 생성할 수 있습니까?", "output": "GeOn Builder는 PDF, 이미지, 웹 페이지 등 다양한 형식의 출력물을 생성할 수 있습니다."}
+{"instruction": "GeOn Builder는 어떤 데이터 시뮬레이션 기능을 제공합니까?", "output": "GeOn Builder는 가상 데이터를 생성하여 시뮬레이션 분석을 할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 대시보드 기능을 제공합니까?", "output": "GeOn Builder는 실시간 데이터 시각화를 위한 대시보드를 사용자 정의할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 데이터 변환 기능을 제공합니까?", "output": "GeOn Builder는 데이터 형식 변환, 좌표 변환 등의 기능을 제공합니다."}
+{"instruction": "GeOn Builder의 보고서 자동 생성 기능은 무엇입니까?", "output": "GeOn Builder는 주기적으로 데이터를 수집하여 자동으로 보고서를 생성하는 기능을 제공합니다."}
+{"instruction": "GeOn Builder는 어떤 형식의 데이터 출력을 지원합니까?", "output": "GeOn Builder는 JSON, XML, CSV 등 다양한 형식의 데이터 출력을 지원합니다."}
+{"instruction": "GeOn Builder는 어떤 데이터 통합 기능을 제공합니까?", "output": "GeOn Builder는 다양한 외부 데이터 소스와의 통합을 지원하여 포괄적인 데이터 분석을 가능하게 합니다."}
+{"instruction": "GeOn Client는 어떤 기능을 제공합니까?", "output": "GeOn Client는 지도 제어, 지도 관리, 위젯 관리 및 정보 융합 기능을 제공합니다."}
+{"instruction": "GeOn Client의 지도 제어 기능은 무엇입니까?", "output": "GeOn Client의 지도 제어 기능은 Map 생성, Zoom/Pan, 측정 등의 기능을 제공합니다."}
+{"instruction": "GeOn Client의 지도 관리 기능은 무엇입니까?", "output": "GeOn Client의 지도 관리 기능은 레이어 및 지도 콘텐츠 관련 관리 및 제어 기능을 제공합니다."}
+{"instruction": "GeOn Client의 위젯 관리 기능은 무엇입니까?", "output": "GeOn Client의 위젯 관리 기능은 즉시 사용 가능한 기능을 아이콘으로 제공하여 켜거나 끌 수 있습니다."}
+{"instruction": "GeOn Client의 정보 융합 기능은 무엇입니까?", "output": "GeOn Client의 정보 융합 기능은 점, 선, 면, 정보창, WMS/WFS, KML 등과 지도 융합 기능을 제공합니다."}
+{"instruction": "GeOn Client는 어떤 운영체제에서 작동합니까?", "output": "GeOn Client는 주로 CentOS와 같은 Linux 계열의 운영체제에서 작동합니다."}
+{"instruction": "GeOn Client는 어떤 웹 표준을 준수합니까?", "output": "GeOn Client는 웹 표준 EC6을 준수합니다."}
+{"instruction": "GeOn Client의 보안 기능은 무엇입니까?", "output": "GeOn Client는 OAuth 2.0, SAML 등의 보안 인증을 지원합니다."}
+{"instruction": "GeOn Client는 어떤 지도 서비스를 제공합니까?", "output": "GeOn Client는 WMS, WFS, WMTS 등의 OGC 표준 서비스와 관련된 지도 서비스를 제공합니다."}
+{"instruction": "GeOn Client의 데이터 분석 기능은 무엇입니까?", "output": "GeOn Client는 통계 분석, 시각적 분석, 공간 분석 등의 데이터 분석 기능을 제공합니다."}
+{"instruction": "GeOn Client의 데이터 정제 기능은 무엇입니까?", "output": "GeOn Client는 데이터 정제를 위한 필터링, 정규화, 중복 제거 기능을 제공합니다."}
+{"instruction": "GeOn Client의 사용자 정의 위젯 기능은 무엇입니까?", "output": "GeOn Client는 사용자 정의 위젯을 생성하여 특정 기능을 확장할 수 있습니다."}
+{"instruction": "GeOn Client는 실시간 데이터를 지원합니까?", "output": "GeOn Client는 실시간 데이터 피드를 통합하여 실시간으로 데이터를 업데이트할 수 있습니다."}
+{"instruction": "GeOn Client의 대시보드 기능은 무엇입니까?", "output": "GeOn Client는 사용자 정의 대시보드를 제공하여 실시간 데이터를 시각화할 수 있습니다."}
+{"instruction": "GeOn Client의 보고서 생성 기능은 무엇입니까?", "output": "GeOn Client는 사용자 정의 보고서를 생성하여 데이터를 공유하고 시각화할 수 있습니다."}
+{"instruction": "GeOn Client의 로그 분석 기능은 무엇입니까?", "output": "GeOn Client는 시스템 로그를 분석하여 사용자 활동 및 시스템 상태를 모니터링할 수 있습니다."}
+{"instruction": "GeOn Client의 협업 기능은 무엇입니까?", "output": "GeOn Client는 팀 협업을 위한 주석 달기, 버전 공유, 공동 작업 기능을 제공합니다."}
+{"instruction": "GeOn Client의 데이터 시각화 기능은 무엇입니까?", "output": "GeOn Client는 다양한 차트와 그래프를 사용하여 데이터를 시각화할 수 있습니다."}
+{"instruction": "GeOn Client의 알림 기능은 무엇입니까?", "output": "GeOn Client는 이메일, SMS 등을 통한 다양한 알림 기능을 제공합니다."}
+{"instruction": "GeOn Client는 어떤 형식의 데이터 가져오기를 지원합니까?", "output": "GeOn Client는 CSV, Excel, Shapefile 등의 다양한 데이터 형식의 가져오기를 지원합니다."}
+{"instruction": "GeOn Client는 어떤 데이터베이스와 호환됩니까?", "output": "GeOn Client는 PostgreSQL, MySQL, Oracle 등 다양한 데이터베이스와 호환됩니다."}
+{"instruction": "GeOn Client의 버전 관리 기능은 무엇입니까?", "output": "GeOn Client는 프로젝트의 버전 관리를 통해 변경 이력을 추적하고 복원할 수 있습니다."}
+{"instruction": "GeOn Client는 어떤 매핑 기능을 제공합니까?", "output": "GeOn Client는 사용자 정의 매핑 규칙을 설정하여 데이터를 매핑할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Client의 스케줄링 기능은 무엇입니까?", "output": "GeOn Client는 데이터 업데이트와 작업을 자동화할 수 있는 스케줄링 기능을 제공합니다."}
+{"instruction": "GeOn Client는 어떤 데이터 통합 기능을 제공합니까?", "output": "GeOn Client는 다양한 외부 데이터 소스와의 통합을 지원하여 포괄적인 데이터 분석을 가능하게 합니다."}
+{"instruction": "GeOn Client의 사용자 인터페이스는 어떤 특징이 있습니까?", "output": "GeOn Client는 직관적인 사용자 인터페이스를 통해 고급 GIS 사용자가 쉽게 사용할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOn Client는 모바일 기기에서 사용할 수 있습니까?", "output": "GeOn Client는 모바일 최적화 기능을 통해 다양한 모바일 기기에서도 사용할 수 있습니다."}
+{"instruction": "GeOn Client의 데이터 모델링 기능은 무엇입니까?", "output": "GeOn Client는 다양한 데이터 모델을 설계하고 시각화할 수 있는 데이터 모델링 기능을 제공합니다."}
+{"instruction": "GeOn Client는 어떤 형식의 데이터 출력을 지원합니까?", "output": "GeOn Client는 JSON, XML, CSV 등 다양한 형식의 데이터 출력을 지원합니다."}
+{"instruction": "GeOn Client는 어떤 형식의 출력물을 생성할 수 있습니까?", "output": "GeOn Client는 PDF, 이미지, 웹 페이지 등 다양한 형식의 출력물을 생성할 수 있습니다."}
+{"instruction": "GeOn Client의 보고서 자동 생성 기능은 무엇입니까?", "output": "GeOn Client는 주기적으로 데이터를 수집하여 자동으로 보고서를 생성하는 기능을 제공합니다."}
+{"instruction": "GeOn Client는 어떤 웹 표준을 준수합니까?", "output": "GeOn Client는 웹 표준 EC6을 준수합니다."}
+{"instruction": "GeOn Client의 보안 기능은 무엇입니까?", "output": "GeOn Client는 OAuth 2.0, SAML 등의 보안 인증을 지원합니다."}
+{"instruction": "GeOn Client는 어떤 지도 서비스를 제공합니까?", "output": "GeOn Client는 WMS, WFS, WMTS 등의 OGC 표준 서비스와 관련된 지도 서비스를 제공합니다."}
+{"instruction": "GeOn Client의 데이터 분석 기능은 무엇입니까?", "output": "GeOn Client는 통계 분석, 시각적 분석, 공간 분석 등의 데이터 분석 기능을 제공합니다."}
+{"instruction": "GeOn Client의 데이터 정제 기능은 무엇입니까?", "output": "GeOn Client는 데이터 정제를 위한 필터링, 정규화, 중복 제거 기능을 제공합니다."}
+{"instruction": "GeOn Client의 사용자 정의 위젯 기능은 무엇입니까?", "output": "GeOn Client는 사용자 정의 위젯을 생성하여 특정 기능을 확장할 수 있습니다."}
+{"instruction": "GeOn Client는 실시간 데이터를 지원합니까?", "output": "GeOn Client는 실시간 데이터 피드를 통합하여 실시간으로 데이터를 업데이트할 수 있습니다."}
+{"instruction": "GeOn Client의 대시보드 기능은 무엇입니까?", "output": "GeOn Client는 사용자 정의 대시보드를 제공하여 실시간 데이터를 시각화할 수 있습니다."}
+{"instruction": "GeOn Client의 보고서 생성 기능은 무엇입니까?", "output": "GeOn Client는 사용자 정의 보고서를 생성하여 데이터를 공유하고 시각화할 수 있습니다."}
+{"instruction": "GeOn Client의 로그 분석 기능은 무엇입니까?", "output": "GeOn Client는 시스템 로그를 분석하여 사용자 활동 및 시스템 상태를 모니터링할 수 있습니다."}
+{"instruction": "GeOn Client의 협업 기능은 무엇입니까?", "output": "GeOn Client는 팀 협업을 위한 주석 달기, 버전 공유, 공동 작업 기능을 제공합니다."}
+{"instruction": "GeOn Client의 데이터 시각화 기능은 무엇입니까?", "output": "GeOn Client는 다양한 차트와 그래프를 사용하여 데이터를 시각화할 수 있습니다."}
+{"instruction": "GeOn Client의 알림 기능은 무엇입니까?", "output": "GeOn Client는 이메일, SMS 등을 통한 다양한 알림 기능을 제공합니다."}
+{"instruction": "GeOn Client는 어떤 형식의 데이터 가져오기를 지원합니까?", "output": "GeOn Client는 CSV, Excel, Shapefile 등의 다양한 데이터 형식의 가져오기를 지원합니다."}
+{"instruction": "GeOn Client는 어떤 데이터베이스와 호환됩니까?", "output": "GeOn Client는 PostgreSQL, MySQL, Oracle 등 다양한 데이터베이스와 호환됩니다."}
+{"instruction": "GeOn Client의 버전 관리 기능은 무엇입니까?", "output": "GeOn Client는 프로젝트의 버전 관리를 통해 변경 이력을 추적하고 복원할 수 있습니다."}
+{"instruction": "GeOn Client는 어떤 매핑 기능을 제공합니까?", "output": "GeOn Client는 사용자 정의 매핑 규칙을 설정하여 데이터를 매핑할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Client의 스케줄링 기능은 무엇입니까?", "output": "GeOn Client는 데이터 업데이트와 작업을 자동화할 수 있는 스케줄링 기능을 제공합니다."}
+{"instruction": "GeOn Client는 어떤 데이터 통합 기능을 제공합니까?", "output": "GeOn Client는 다양한 외부 데이터 소스와의 통합을 지원하여 포괄적인 데이터 분석을 가능하게 합니다."}
+{"instruction": "GeOn Client의 사용자 인터페이스는 어떤 특징이 있습니까?", "output": "GeOn Client는 직관적인 사용자 인터페이스를 통해 고급 GIS 사용자가 쉽게 사용할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOn Client는 모바일 기기에서 사용할 수 있습니까?", "output": "GeOn Client는 모바일 최적화 기능을 통해 다양한 모바일 기기에서도 사용할 수 있습니다."}
+{"instruction": "GeOn Client의 데이터 모델링 기능은 무엇입니까?", "output": "GeOn Client는 다양한 데이터 모델을 설계하고 시각화할 수 있는 데이터 모델링 기능을 제공합니다."}
+{"instruction": "GeOn Client는 어떤 형식의 데이터 출력을 지원합니까?", "output": "GeOn Client는 JSON, XML, CSV 등 다양한 형식의 데이터 출력을 지원합니다."}
+{"instruction": "GeOn Client는 어떤 형식의 출력물을 생성할 수 있습니까?", "output": "GeOn Client는 PDF, 이미지, 웹 페이지 등 다양한 형식의 출력물을 생성할 수 있습니다."}
+{"instruction": "GeOn Client의 보고서 자동 생성 기능은 무엇입니까?", "output": "GeOn Client는 주기적으로 데이터를 수집하여 자동으로 보고서를 생성하는 기능을 제공합니다."}
+{"instruction": "GeOn Client의 사용자 정의 레이어 기능은 무엇입니까?", "output": "GeOn Client는 사용자 정의 레이어를 생성하고 관리할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Client의 공간 데이터 분석 기능은 무엇입니까?", "output": "GeOn Client는 공간 데이터 분석을 통해 패턴 인식, 예측 분석, 경향 분석 등을 수행할 수 있습니다."}
+{"instruction": "GeOn Client의 시뮬레이션 기능은 무엇입니까?", "output": "GeOn Client는 다양한 시나리오를 시뮬레이션하여 예측 모델을 생성할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Client의 데이터 가져오기 자동화 기능은 무엇입니까?", "output": "GeOn Client는 정기적인 데이터 가져오기 작업을 자동화할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn Client의 권한 관리 기능은 무엇입니까?", "output": "GeOn Client는 사용자별 권한을 설정하고 관리할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 기능을 제공합니까?", "output": "GeOn DevCenter는 API 사양문서, 개발 가이드, 지도 샘플, 자동완성 기능 등을 제공하여 개발 편의성을 높입니다."}
+{"instruction": "GeOn DevCenter의 API 사양문서는 무엇입니까?", "output": "GeOn DevCenter의 API 사양문서는 제공 API의 설명, In 파라미터 설명, 예외처리 등을 제공합니다."}
+{"instruction": "GeOn DevCenter의 개발 가이드는 무엇입니까?", "output": "GeOn DevCenter의 개발 가이드는 REST 및 JavaScript API를 활용한 지도 App 개발에 대한 상세 가이드를 제공합니다."}
+{"instruction": "GeOn DevCenter의 지도 샘플은 무엇입니까?", "output": "GeOn DevCenter의 지도 샘플은 주요 지도 App에 대한 샘플 개발 소스를 제공합니다."}
+{"instruction": "GeOn DevCenter의 자동완성 기능은 무엇입니까?", "output": "GeOn DevCenter의 자동완성 기능은 필요한 기능 선택을 통한 소스 자동 생성을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 운영체제에서 작동합니까?", "output": "GeOn DevCenter는 주로 CentOS와 같은 Linux 계열의 운영체제에서 작동합니다."}
+{"instruction": "GeOn DevCenter는 어떤 웹 표준을 준수합니까?", "output": "GeOn DevCenter는 웹 표준 EC6을 준수합니다."}
+{"instruction": "GeOn DevCenter의 보안 기능은 무엇입니까?", "output": "GeOn DevCenter는 OAuth 2.0, SAML 등의 보안 인증을 지원합니다."}
+{"instruction": "GeOn DevCenter는 어떤 개발 언어를 지원합니까?", "output": "GeOn DevCenter는 JavaScript와 같은 웹 개발 언어를 지원합니다."}
+{"instruction": "GeOn DevCenter는 어떤 지도 서비스를 제공합니까?", "output": "GeOn DevCenter는 WMS, WFS, WMTS 등의 OGC 표준 서비스와 관련된 지도 서비스를 제공합니다."}
+{"instruction": "GeOn DevCenter의 데이터 분석 기능은 무엇입니까?", "output": "GeOn DevCenter는 통계 분석, 시각적 분석, 공간 분석 등의 데이터 분석 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter의 데이터 정제 기능은 무엇입니까?", "output": "GeOn DevCenter는 데이터 정제를 위한 필터링, 정규화, 중복 제거 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 데이터베이스와 호환됩니까?", "output": "GeOn DevCenter는 PostgreSQL, MySQL, Oracle 등 다양한 데이터베이스와 호환됩니다."}
+{"instruction": "GeOn DevCenter의 버전 관리 기능은 무엇입니까?", "output": "GeOn DevCenter는 프로젝트의 버전 관리를 통해 변경 이력을 추적하고 복원할 수 있습니다."}
+{"instruction": "GeOn DevCenter의 대시보드 기능은 무엇입니까?", "output": "GeOn DevCenter는 사용자 정의 대시보드를 제공하여 실시간 데이터를 시각화할 수 있습니다."}
+{"instruction": "GeOn DevCenter의 보고서 생성 기능은 무엇입니까?", "output": "GeOn DevCenter는 사용자 정의 보고서를 생성하여 데이터를 공유하고 시각화할 수 있습니다."}
+{"instruction": "GeOn DevCenter의 로그 분석 기능은 무엇입니까?", "output": "GeOn DevCenter는 시스템 로그를 분석하여 사용자 활동 및 시스템 상태를 모니터링할 수 있습니다."}
+{"instruction": "GeOn DevCenter의 협업 기능은 무엇입니까?", "output": "GeOn DevCenter는 팀 협업을 위한 주석 달기, 버전 공유, 공동 작업 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter의 데이터 시각화 기능은 무엇입니까?", "output": "GeOn DevCenter는 다양한 차트와 그래프를 사용하여 데이터를 시각화할 수 있습니다."}
+{"instruction": "GeOn DevCenter의 알림 기능은 무엇입니까?", "output": "GeOn DevCenter는 이메일, SMS 등을 통한 다양한 알림 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 형식의 데이터 가져오기를 지원합니까?", "output": "GeOn DevCenter는 CSV, Excel, Shapefile 등의 다양한 데이터 형식의 가져오기를 지원합니다."}
+{"instruction": "GeOn DevCenter의 스케줄링 기능은 무엇입니까?", "output": "GeOn DevCenter는 데이터 업데이트와 작업을 자동화할 수 있는 스케줄링 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 데이터 통합 기능을 제공합니까?", "output": "GeOn DevCenter는 다양한 외부 데이터 소스와의 통합을 지원하여 포괄적인 데이터 분석을 가능하게 합니다."}
+{"instruction": "GeOn DevCenter의 사용자 인터페이스는 어떤 특징이 있습니까?", "output": "GeOn DevCenter는 직관적인 사용자 인터페이스를 통해 고급 GIS 사용자가 쉽게 사용할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOn DevCenter는 모바일 기기에서 사용할 수 있습니까?", "output": "GeOn DevCenter는 모바일 최적화 기능을 통해 다양한 모바일 기기에서도 사용할 수 있습니다."}
+{"instruction": "GeOn DevCenter의 데이터 모델링 기능은 무엇입니까?", "output": "GeOn DevCenter는 다양한 데이터 모델을 설계하고 시각화할 수 있는 데이터 모델링 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 형식의 데이터 출력을 지원합니까?", "output": "GeOn DevCenter는 JSON, XML, CSV 등 다양한 형식의 데이터 출력을 지원합니다."}
+{"instruction": "GeOn DevCenter는 어떤 형식의 출력물을 생성할 수 있습니까?", "output": "GeOn DevCenter는 PDF, 이미지, 웹 페이지 등 다양한 형식의 출력물을 생성할 수 있습니다."}
+{"instruction": "GeOn DevCenter의 보고서 자동 생성 기능은 무엇입니까?", "output": "GeOn DevCenter는 주기적으로 데이터를 수집하여 자동으로 보고서를 생성하는 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter의 사용자 정의 레이어 기능은 무엇입니까?", "output": "GeOn DevCenter는 사용자 정의 레이어를 생성하고 관리할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter의 시뮬레이션 기능은 무엇입니까?", "output": "GeOn DevCenter는 다양한 시나리오를 시뮬레이션하여 예측 모델을 생성할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 형식의 지도 샘플을 제공합니까?", "output": "GeOn DevCenter는 HTML, JavaScript, CSS로 작성된 다양한 형식의 지도 샘플을 제공합니다."}
+{"instruction": "GeOn DevCenter의 코드 스니펫 기능은 무엇입니까?", "output": "GeOn DevCenter는 개발자가 빠르게 코드를 작성할 수 있도록 샘플코드 제공합니다."}
+{"instruction": "GeOn DevCenter의 프로젝트 템플릿은 무엇입니까?", "output": "GeOn DevCenter는 다양한 프로젝트 유형에 맞춘 템플릿을 제공하여 개발을 신속하게 시작할 수 있습니다."}
+{"instruction": "GeOn DevCenter는 어떤 형식의 학습 자료를 제공합니까?", "output": "GeOn DevCenter는 동영상 튜토리얼, 문서화된 가이드, 예제 프로젝트 등을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 모니터링 도구를 제공합니까?", "output": "GeOn DevCenter는 API 사용량, 성능 등을 실시간으로 모니터링할 수 있는 도구를 제공합니다."}
+{"instruction": "GeOn DevCenter의 사용자 정의 데이터 필터링 기능은 무엇입니까?", "output": "GeOn DevCenter는 사용자 정의 필터를 설정하여 필요한 데이터만을 선택할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn DevCenter는 어떤 형식의 문서화를 제공합니까?", "output": "GeOn DevCenter는 API 문서화, 사용자 가이드, 튜토리얼 등을 제공합니다."}
+{"instruction": "GeOnPaaS 제품의 주요 제공 기능은 무엇입니까?", "output": "GeOnPaaS는 GeOn API, GeOn Builder, GeOn Client, GeOn DevCenter 등의 주요 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 특장점은 무엇입니까?", "output": "GeOnPaaS는 전자정부 표준 프레임워크에 오픈GIS 기술을 적용한 공간정보 시스템 개발 프레임워크로, 고급 GIS 사용자를 위해 지도 기반의 앱을 UI 기반으로 저작할 수 있는 환경을 제공하며, 웹 기반 공간정보서비스 개발을 위한 JavaScript API를 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 표준을 준수합니까?", "output": "GeOnPaaS는 공간정보 (WMS/WFS 등) 및 웹 표준(EC6 등)을 준수합니다."}
+{"instruction": "GeOnPaaS의 클라우드 기반 인프라 구성 요소는 무엇입니까?", "output": "GeOnPaaS의 클라우드 기반 인프라는 GeoServer, PostgreSQL + PostGIS, 각종 서버 컴포넌트 (지오코딩, 공간분석, 좌표변환 등)로 구성되어 있습니다."}
+{"instruction": "GeOnPaaS의 개발 가이드에는 어떤 내용이 포함되어 있습니까?", "output": "GeOnPaaS의 개발 가이드에는 제공 API의 설명, In 파라미터 설명, 예외처리, REST 및 JavaScript API를 활용한 지도 App 개발에 대한 상세 가이드, 주요 지도 App에 대한 샘플 개발 소스, 소스 자동 생성 기능 등이 포함되어 있습니다."}
+{"instruction": "GeOnPaaS가 제공하는 공간정보 관리 기능은 무엇입니까?", "output": "GeOnPaaS는 공간업로드/다운로드, 레이어 관리, 지도/앱 콘텐츠 관리, 지오코딩, POI 검색, 속성 검색 등의 공간정보 관리 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 적용 실적과 향후 계획은 무엇입니까?", "output": "GeOnPaaS는 국토교통부의 K-Geo플랫폼, LX의 국토정보플랫폼, 충북도의 스마트 공간정보플랫폼 등에 적용되었으며, 향후 2~3개년간 지속적으로 수행 예정입니다."}
+{"instruction": "GeOnPaaS는 어떤 제품인가요?", "output": "GeOnPaaS는 공간정보 시스템 구축을 위한 PaaS(Platform as a Service) 솔루션입니다."}
+{"instruction": "GeOnPaaS는 어떤 오픈소스를 활용합니까?", "output": "GeOnPaaS는 GeoServer, PostgreSQL 등을 활용합니다."}
+{"instruction": "GeOnPaaS의 버전은 무엇입니까?", "output": "GeOnPaaS의 버전은 v1.0입니다."}
+{"instruction": "GeOnPaaS 제품 설명서의 문서번호는 무엇입니까?", "output": "GeOnPaaS 제품 설명서의 문서번호는 GeOnPaaS-INT-01입니다."}
+{"instruction": "GeOnPaaS의 주 개발 배경은 무엇입니까?", "output": "GeOnPaaS는 전자정부 표준 프레임워크에 오픈GIS 기술을 적용한 공간정보 시스템 개발을 목적으로 개발되었습니다."}
+{"instruction": "GeOnPaaS는 어떤 기술 기반으로 개발되었습니까?", "output": "GeOnPaaS는 전자정부 표준 프레임워크와 오픈GIS 기술을 기반으로 개발되었습니다."}
+{"instruction": "GeOnPaaS의 주요 제공 기능 중 하나인 GeOn API는 무엇을 제공합니까?", "output": "GeOn API는 REST API를 통해 다양한 GIS 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 GeOn Builder 기능은 무엇입니까?", "output": "GeOn Builder는 고급 GIS 사용자를 위한 지도 기반의 앱을 UI 기반으로 저작할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOnPaaS의 GeOn Client는 어떤 기능을 제공합니까?", "output": "GeOn Client는 지도 제어, 지도 관리, 위젯 관리, 정보융합 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 GeOn DevCenter는 어떤 기능을 제공합니까?", "output": "GeOn DevCenter는 GeOnPaaS가 제공하는 각종 API 문서 설명 및 개발 편의 기능을 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 사용자에게 적합합니까?", "output": "GeOnPaaS는 고급 GIS 사용자, 정부기관, 기업 및 일반 사용자에게 적합합니다."}
+{"instruction": "GeOnPaaS는 어떤 클라우드 기반 기술을 사용합니까?", "output": "GeOnPaaS는 클라우드 기반의 인프라로서 x86 PC 기반의 Linux 계열의 OS를 사용합니다."}
+{"instruction": "GeOnPaaS의 시스템 구성 요소에는 어떤 것이 있습니까?", "output": "GeOnPaaS의 시스템 구성 요소에는 GeOn-API, GeOn-Builder, GeOn-Client, GeOn-DevCenter 등이 있습니다."}
+{"instruction": "GeOnPaaS의 API 문서에는 어떤 내용이 포함되어 있습니까?", "output": "GeOnPaaS의 API 문서에는 제공 API의 설명, In 파라미터 설명, 예외처리 등이 포함되어 있습니다."}
+{"instruction": "GeOnPaaS의 지도 샘플은 어떤 용도로 사용됩니까?", "output": "GeOnPaaS의 지도 샘플은 주요 지도 앱에 대한 샘플 개발 소스로 사용됩니다."}
+{"instruction": "GeOnPaaS의 주요 특징 중 하나는 무엇입니까?", "output": "GeOnPaaS는 공간정보 공통 개발 요소의 모듈화를 특징으로 합니다."}
+{"instruction": "GeOnPaaS의 특장점 중 하나는 무엇입니까?", "output": "GeOnPaaS는 클라우드 PaaS 기술 기반으로 개발되었습니다."}
+{"instruction": "GeOnPaaS는 어떤 표준 서비스를 제공합니까?", "output": "GeOnPaaS는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 기능 중 하나인 공간분석 기능은 무엇을 포함합니까?", "output": "GeOnPaaS의 공간분석 기능은 공간 패턴 분석, 데이터 요약 및 관리, 근접도 분석, 위치 찾기 분석 등을 포함합니다."}
+{"instruction": "GeOnPaaS는 어떤 검색 기능을 제공합니까?", "output": "GeOnPaaS는 지오코딩, POI 검색, 속성 검색 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 개발자는 어떤 문서를 참고할 수 있습니까?", "output": "GeOnPaaS의 개발자는 API 사양 문서, 개발 가이드, 지도 샘플, 자동완성 기능 등을 참고할 수 있습니다."}
+{"instruction": "GeOnPaaS의 REST API는 어떤 용도로 사용됩니까?", "output": "GeOnPaaS의 REST API는 GIS 관련 각종 핵심 기능을 제공하기 위해 사용됩니다."}
+{"instruction": "GeOnPaaS는 어떤 운영체제를 사용하여 구성됩니까?", "output": "GeOnPaaS는 x86 PC 기반의 Linux 계열의 OS를 사용하여 구성됩니다."}
+{"instruction": "GeOnPaaS는 어떤 방식으로 데이터 표준을 마련합니까?", "output": "GeOnPaaS는 OGC 표준을 준수하여 데이터 표준을 마련합니다."}
+{"instruction": "GeOnPaaS는 어떤 공간정보 연산 기능을 제공합니까?", "output": "GeOnPaaS는 Contains, Within, Intersect 등의 2D 공간 연산 기능을 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 개발 환경을 제공합니까?", "output": "GeOnPaaS는 웹 기반 공간정보서비스 개발을 위한 JavaScript API 개발 환경을 제공합니다."}
+{"instruction": "GeOnPaaS의 지도 빌더는 어떤 기능을 제공합니까?", "output": "GeOnPaaS의 지도 빌더는 레이어 스타일 편집 및 관리, 주제도 설정 및 저장 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 앱 빌더는 어떤 기능을 제공합니까?", "output": "GeOnPaaS의 앱 빌더는 테마 생성 및 관리, 각종 테마 설정, 지도 기반 앱 생성 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 위젯 도구는 무엇을 포함합니까?", "output": "GeOnPaaS의 위젯 도구는 다양한 지도 관련 위젯 도구를 포함합니다."}
+{"instruction": "GeOnPaaS는 어떤 프로젝트에 참여했습니까?", "output": "GeOnPaaS는 국토교통부의 K-Geo 플랫폼, LX의 국토정보 플랫폼, 충북도의 스마트 공간정보 플랫폼 프로젝트에 참여했습니다."}
+{"instruction": "GeOnPaaS의 향후 계획은 무엇입니까?", "output": "GeOnPaaS는 향후 2~3개년간 지속적으로 프로젝트를 수행하며 다양한 레퍼런스를 바탕으로 지속적인 공간정보 플랫폼 매출 확장을 계획하고 있습니다."}
+{"instruction": "GeOnPaaS의 REST API는 어떤 컴포넌트로 구성됩니까?", "output": "GeOnPaaS의 REST API는 지오코딩, 서비스 발행, 공간분석, 좌표변환, 지도관리, 저작도구, 레이어그룹 등의 컴포넌트로 구성됩니다."}
+{"instruction": "GeOnPaaS의 공간업로드 및 다운로드 기능은 무엇을 포함합니까?", "output": "GeOnPaaS의 공간업로드 및 다운로드 기능은 레이어 관리, 지도/앱 콘텐츠 관리 기능을 포함합니다."}
+{"instruction": "GeOnPaaS의 주요 적용 실적은 무엇입니까?", "output": "GeOnPaaS는 국토교통부의 K-Geo 플랫폼, LX의 국토정보 플랫폼, 충북도의 스마트 공간정보 플랫폼 등에 적용되었습니다."}
+{"instruction": "GeOnPaaS의 공간정보 플랫폼은 어떤 기반으로 구축됩니까?", "output": "GeOnPaaS의 공간정보 플랫폼은 디지털 시뮬레이션 분석과 3D 기반의 신산업 경쟁력을 확보하기 위해 구축됩니다."}
+{"instruction": "GeOnPaaS의 시스템 설치 절차는 어디에 설명되어 있습니까?", "output": "GeOnPaaS의 시스템 설치 절차는 별도의 운영자 매뉴얼에 설명되어 있습니다."}
+{"instruction": "GeOnPaaS의 OGC 표준 서비스는 무엇입니까?", "output": "GeOnPaaS의 OGC 표준 서비스는 WMS, WFS, WMTS 등을 포함합니다."}
+{"instruction": "GeOnPaaS는 어떤 플랫폼 솔루션을 제공합니다?", "output": "GeOnPaaS는 공간정보 시스템 구축, 시스템 유지관리, 공간정보 솔루션 고도화, 공간정보 플랫폼 구축 등을 위한 플랫폼 솔루션을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 기능 중 하나인 지도 제어 기능은 무엇을 포함합니까?", "output": "GeOnPaaS의 지도 제어 기능은 지도 생성, Zoom/Pan, 측정 등의 기능을 포함합니다."}
+{"instruction": "GeOnPaaS는 어떤 형태의 앱 빌더를 제공합니까?", "output": "GeOnPaaS는 테마 생성/관리, 각종 테마 설정, 지도 기반 앱 생성 기능을 제공하는 앱 빌더를 제공합니다."}
+{"instruction": "GeOnPaaS의 정보융합 기능은 무엇을 포함합니까?", "output": "GeOnPaaS의 정보융합 기능은 점, 선, 면, 정보창, WMS/WFS, KML 등의 정보를 지도와 융합하는 기능을 포함합니다."}
+{"instruction": "GeOnPaaS의 자동완성 기능은 무엇입니까?", "output": "GeOnPaaS의 자동완성 기능은 필요한 기능 선택을 통한 소스 자동 생성 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 지도 관리 기능은 무엇을 포함합니까?", "output": "GeOnPaaS의 지도 관리 기능은 레이어 스타일 관리, 지도 콘텐츠 관리 및 제어 기능을 포함합니다."}
+{"instruction": "GeOnPaaS의 사용자 데이터 업로드 기능은 어떤 용도로 사용됩니까?", "output": "GeOnPaaS의 사용자 데이터 업로드 기능은 웹 기반 공간정보서비스 개발을 위한 데이터 업로드 용도로 사용됩니다."}
+{"instruction": "GeOnPaaS의 클라우드 기반 인프라는 어떤 장점을 가지고 있습니까?", "output": "GeOnPaaS의 클라우드 기반 인프라는 효율적인 인프라 자원 및 데이터 관리·활용을 가능하게 합니다."}
+{"instruction": "GeOnPaaS의 최근 3개년 공간정보 플랫폼 수주 금액은 얼마입니까?", "output": "GeOnPaaS의 최근 3개년 공간정보 플랫폼 수주 금액은 2018년에 1,465억원, 2019년에 1,881억원, 2020년에 6,007억원입니다."}
+{"instruction": "GeOnPaaS의 디지털 트윈 국토 실현 정부 로드맵은 어떤 단계로 구성되어 있습니까?", "output": "GeOnPaaS의 디지털 트윈 국토 실현 정부 로드맵은 구축, 고도화, 지능화의 단계로 구성되어 있습니다."}
+{"instruction": "GeOnPaaS의 디지털 트윈 국토 실현 정부 로드맵의 추진 전략은 무엇입니까?", "output": "GeOnPaaS의 디지털 트윈 국토 실현 정부 로드맵의 추진 전략은 표준 기반 데이터 및 플랫폼 구축, 트윈 국토 기술 개발 및 확산, 법 제도 개선 및 거버넌스 실현입니다."}
+{"instruction": "GeOnPaaS의 주요 중점 과제는 무엇입니까?", "output": "GeOnPaaS의 주요 중점 과제는 데이터 표준 마련 및 구축, 트윈 국토 플랫폼 구축, 트윈 국토 구축 활용 기술 개발, 트윈 국토 행정모델 확산, 제도적 기반 마련, 거버넌스 체계 구축입니다."}
+{"instruction": "GeOn API의 주요 기능은 무엇인가요?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 제공하며, 공간분석, 공간연산, 공간정보 관리, 검색 기능을 지원합니다."}
+{"instruction": "GeOn API는 어떤 표준을 준수하나요?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS와 웹 표준 EC6을 준수합니다."}
+{"instruction": "GeOn API는 어떤 종류의 공간분석을 제공하나요?", "output": "GeOn API는 공간 패턴 분석, 데이터 요약/관리, 근접도 분석, 위치 찾기 분석 등의 공간분석 기능을 제공합니다."}
+{"instruction": "GeOn API의 공간연산 기능은 무엇인가요?", "output": "GeOn API는 Contains, Within, Intersect 등의 2D 공간 연산 기능을 제공합니다."}
+{"instruction": "GeOn API의 공간정보 관리 기능은 무엇인가요?", "output": "GeOn API는 공간업로드, 다운로드, 레이어 관리, 지도/앱 콘텐츠 관리 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 검색 기능은 무엇인가요?", "output": "GeOn API는 지오코딩, POI, 속성 검색 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 레이어 관리 기능은 무엇인가요?", "output": "GeOn API는 레이어 스타일 편집 및 관리 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 개발 언어를 사용하나요?", "output": "GeOn API는 JavaScript를 사용하여 웹 기반 공간정보서비스를 개발합니다."}
+{"instruction": "GeOn API의 설치 절차는 어디서 확인할 수 있나요?", "output": "GeOn API의 설치 절차는 운영자 매뉴얼을 통해 확인할 수 있습니다."}
+{"instruction": "GeOn API의 데이터 백업 및 복구 기능은 무엇인가요?", "output": "GeOn API는 사용자 매뉴얼을 통해 데이터 백업 및 복구 절차를 제공합니다."}
+{"instruction": "GeOn API의 유지보수는 어떻게 이루어지나요?", "output": "GeOn API의 유지보수는 별도의 운영자 매뉴얼을 통해 지원됩니다."}
+{"instruction": "GeOn API는 어떤 클라우드 기반 인프라를 사용하나요?", "output": "GeOn API는 GeoServer와 PostgreSQL + PostGIS를 포함한 클라우드 기반 인프라를 사용합니다."}
+{"instruction": "GeOn API의 주요 제공 서비스는 무엇인가요?", "output": "GeOn API는 공간분석, 공간연산, 공간정보 관리, 검색 등의 서비스를 제공합니다."}
+{"instruction": "GeOn API의 공간정보 관리 기능은 무엇인가요?", "output": "GeOn API는 공간업로드, 다운로드, 레이어 관리, 지도/앱 콘텐츠 관리 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 개발 환경은 어떻게 제공되나요?", "output": "GeOn API는 웹 기반 공간정보서비스 개발을 위한 JavaScript API를 제공하여 개발 환경을 지원합니다."}
+{"instruction": "GeOn API의 API 문서는 무엇인가요?", "output": "GeOn API의 API 문서는 각종 API에 대해 웹 UI 기반의 문서 설명을 제공합니다."}
+{"instruction": "GeOn API는 어떤 오픈소스를 활용하나요?", "output": "GeOn API는 GeoServer, PostgreSQL 등 검증된 오픈소스를 활용합니다."}
+{"instruction": "GeOn API의 시스템 요구사항은 무엇인가요?", "output": "GeOn API의 시스템 요구사항은 x86 PC 기반의 Linux 계열의 운영체제와 GeoServer, PostgreSQL 등의 오픈소스를 사용합니다."}
+{"instruction": "GeOn API의 주요 대상 고객은 누구인가요?", "output": "GeOn API의 주요 대상 고객은 정부기관, 기업, 일반 사용자입니다."}
+{"instruction": "GeOn API는 어떤 지도 서비스를 제공하나요?", "output": "GeOn API는 WMS, WFS, WMTS 등의 OGC 표준 서비스와 관련된 지도 서비스를 제공합니다."}
+{"instruction": "GeOn API의 데이터 표준은 무엇인가요?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 준수합니다."}
+{"instruction": "GeOn API의 설치 절차는 어떻게 확인할 수 있나요?", "output": "GeOn API의 설치 절차는 운영자 매뉴얼을 통해 확인할 수 있습니다."}
+{"instruction": "GeOn API의 개발 가이드는 무엇인가요?", "output": "GeOn API의 개발 가이드는 REST 및 JavaScript API를 활용한 지도 App 개발에 대한 상세 가이드를 제공합니다."}
+{"instruction": "GeOn API의 지도 샘플은 무엇인가요?", "output": "GeOn API의 지도 샘플은 주요 지도 App에 대한 샘플 개발 소스를 제공합니다."}
+{"instruction": "GeOn API의 자동완성 기능은 무엇인가요?", "output": "GeOn API의 자동완성 기능은 필요한 기능 선택을 통한 소스 자동 생성을 제공합니다."}
+{"instruction": "GeOn API는 어떤 환경을 제공하나요?", "output": "GeOn API는 스마트시티, 디지털 트윈, 메타버스 생태계 내에서 솔루션을 통해 정보를 손쉽게 소비할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOn API의 주요 활용 사례는 무엇인가요?", "output": "GeOn API는 국토교통부의 K-Geo 플랫폼, LX의 국토정보플랫폼, 충북도의 스마트 공간정보플랫폼 등에 활용되었습니다."}
+{"instruction": "GeOn API의 향후 계획은 무엇인가요?", "output": "GeOn API는 향후 2~3개년간 지속적으로 수행 예정이며, 다양한 레퍼런스를 바탕으로 이후에도 지속적인 공간정보 플랫폼 매출 확장을 전망하고 있습니다."}
+{"instruction": "GeOn API는 어떤 클라우드 기반 인프라를 사용하나요?", "output": "GeOn API는 클라우드 기반 인프라로 GeoServer와 PostgreSQL + PostGIS를 사용합니다."}
+{"instruction": "GeOn API의 유지보수는 어떻게 이루어지나요?", "output": "GeOn API의 유지보수는 별도의 운영자 매뉴얼을 통해 지원됩니다."}
+{"instruction": "GeOn API의 성능은 어떻게 최적화되었나요?", "output": "GeOn API는 고성능 데이터 처리와 효율적인 자원 관리를 위해 최적화된 아키텍처를 채택하고 있습니다."}
+{"instruction": "GeOn API의 보안 기능은 무엇인가요?", "output": "GeOn API는 데이터 암호화, 인증 및 권한 관리를 통해 높은 수준의 보안을 제공합니다."}
+{"instruction": "GeOn API는 어떤 데이터 형식을 지원하나요?", "output": "GeOn API는 GeoJSON, KML, GML 등의 다양한 공간 데이터 형식을 지원합니다."}
+{"instruction": "GeOn API는 어떤 프로토콜을 사용하나요?", "output": "GeOn API는 HTTP/HTTPS 프로토콜을 사용하여 데이터 통신을 수행합니다."}
+{"instruction": "GeOn API의 요청 한도는 어떻게 설정되나요?", "output": "GeOn API는 사용자 계정별로 일일 요청 한도를 설정하여 서비스 안정성을 유지합니다."}
+{"instruction": "GeOnPaaS 제품의 주요 제공 기능은 무엇인가요?", "output": "GeOnPaaS는 GeOn API, GeOn Builder, GeOn Client, GeOn DevCenter 같은 주요 기능들을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 특장점은 무엇인가요?", "output": "GeOnPaaS는 전자정부 표준 프레임워크에 오픈GIS 기술을 적용한 공간정보 시스템 개발 프레임워크예요. 고급 GIS 사용자를 위해 지도 기반의 앱을 UI 기반으로 저작할 수 있는 환경을 제공하고, 웹 기반 공간정보서비스 개발을 위한 JavaScript API도 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 표준을 준수하나요?", "output": "GeOnPaaS는 공간정보(WMS/WFS 등) 및 웹 표준(EC6 등)을 준수합니다."}
+{"instruction": "GeOnPaaS의 클라우드 기반 인프라 구성 요소는 무엇인가요?", "output": "GeOnPaaS의 클라우드 기반 인프라는 GeoServer, PostgreSQL + PostGIS, 각종 서버 컴포넌트(지오코딩, 공간분석, 좌표변환 등)로 구성됩니다."}
+{"instruction": "GeOnPaaS의 개발 가이드에는 어떤 내용이 들어있나요?", "output": "GeOnPaaS의 개발 가이드에는 제공 API 설명, In 파라미터 설명, 예외처리, REST 및 JavaScript API를 활용한 지도 App 개발에 대한 상세 가이드, 주요 지도 App에 대한 샘플 개발 소스, 소스 자동 생성 기능 등이 포함되어 있습니다."}
+{"instruction": "GeOnPaaS가 제공하는 공간정보 관리 기능은 무엇인가요?", "output": "GeOnPaaS는 공간업로드/다운로드, 레이어 관리, 지도/앱 콘텐츠 관리, 지오코딩, POI 검색, 속성 검색 등의 공간정보 관리 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 적용 실적과 향후 계획은 무엇인가요?", "output": "GeOnPaaS는 국토교통부의 K-Geo플랫폼, LX의 국토정보플랫폼, 충북도의 스마트 공간정보플랫폼 등에 적용되었고, 앞으로 2~3년간 지속적으로 수행할 예정입니다."}
+{"instruction": "GeOnPaaS는 어떤 제품인가요?", "output": "GeOnPaaS는 공간정보 시스템 구축을 위한 PaaS(Platform as a Service) 솔루션입니다."}
+{"instruction": "GeOnPaaS는 어떤 오픈소스를 활용하나요?", "output": "GeOnPaaS는 GeoServer, PostgreSQL 등을 활용합니다."}
+{"instruction": "GeOnPaaS의 버전은 무엇인가요?", "output": "GeOnPaaS의 버전은 v1.0입니다."}
+{"instruction": "GeOnPaaS 제품 설명서의 문서번호는 무엇인가요?", "output": "GeOnPaaS 제품 설명서의 문서번호는 GeOnPaaS-INT-01입니다."}
+{"instruction": "GeOnPaaS의 주 개발 배경은 무엇인가요?", "output": "GeOnPaaS는 전자정부 표준 프레임워크에 오픈GIS 기술을 적용한 공간정보 시스템 개발을 목적으로 개발되었습니다."}
+{"instruction": "GeOnPaaS는 어떤 기술 기반으로 개발되었나요?", "output": "GeOnPaaS는 전자정부 표준 프레임워크와 오픈GIS 기술을 기반으로 개발되었습니다."}
+{"instruction": "GeOnPaaS의 주요 제공 기능 중 하나인 GeOn API는 무엇을 제공하나요?", "output": "GeOn API는 REST API를 통해 다양한 GIS 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 GeOn Builder 기능은 무엇인가요?", "output": "GeOn Builder는 고급 GIS 사용자를 위한 지도 기반의 앱을 UI 기반으로 저작할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOnPaaS의 GeOn Client는 어떤 기능을 제공하나요?", "output": "GeOn Client는 지도 제어, 지도 관리, 위젯 관리, 정보 융합 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 GeOn DevCenter는 어떤 기능을 제공하나요?", "output": "GeOn DevCenter는 GeOnPaaS가 제공하는 각종 API 문서 설명 및 개발 편의 기능을 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 사용자에게 적합한가요?", "output": "GeOnPaaS는 고급 GIS 사용자, 정부기관, 기업 및 일반 사용자에게 적합합니다."}
+{"instruction": "GeOnPaaS는 어떤 클라우드 기반 기술을 사용하나요?", "output": "GeOnPaaS는 클라우드 기반의 인프라로서 x86 PC 기반의 Linux 계열의 OS를 사용합니다."}
+{"instruction": "GeOnPaaS의 시스템 구성 요소에는 어떤 것들이 있나요?", "output": "GeOnPaaS의 시스템 구성 요소에는 GeOn-API, GeOn-Builder, GeOn-Client, GeOn-DevCenter 등이 있습니다."}
+{"instruction": "GeOnPaaS의 API 문서에는 어떤 내용이 포함되어 있나요?", "output": "GeOnPaaS의 API 문서에는 제공 API의 설명, In 파라미터 설명, 예외처리 등이 포함되어 있습니다."}
+{"instruction": "GeOnPaaS의 지도 샘플은 어떤 용도로 사용되나요?", "output": "GeOnPaaS의 지도 샘플은 주요 지도 앱에 대한 샘플 개발 소스로 사용됩니다."}
+{"instruction": "GeOnPaaS의 주요 특징 중 하나는 무엇인가요?", "output": "GeOnPaaS는 공간정보 공통 개발 요소의 모듈화를 특징으로 합니다."}
+{"instruction": "GeOnPaaS의 특장점 중 하나는 무엇인가요?", "output": "GeOnPaaS는 클라우드 PaaS 기술 기반으로 개발되었습니다."}
+{"instruction": "GeOnPaaS는 어떤 표준 서비스를 제공하나요?", "output": "GeOnPaaS는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 기능 중 하나인 공간분석 기능은 무엇을 포함하나요?", "output": "GeOnPaaS의 공간분석 기능은 공간 패턴 분석, 데이터 요약 및 관리, 근접도 분석, 위치 찾기 분석 등을 포함합니다."}
+{"instruction": "GeOnPaaS는 어떤 검색 기능을 제공하나요?", "output": "GeOnPaaS는 지오코딩, POI 검색, 속성 검색 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 개발자는 어떤 문서를 참고할 수 있나요?", "output": "GeOnPaaS의 개발자는 API 사양 문서, 개발 가이드, 지도 샘플, 자동완성 기능 등을 참고할 수 있습니다."}
+{"instruction": "GeOnPaaS의 REST API는 어떤 용도로 사용되나요?", "output": "GeOnPaaS의 REST API는 GIS 관련 각종 핵심 기능을 제공하기 위해 사용됩니다."}
+{"instruction": "GeOnPaaS는 어떤 운영체제를 사용하여 구성되나요?", "output": "GeOnPaaS는 x86 PC 기반의 Linux 계열의 OS를 사용하여 구성됩니다."}
+{"instruction": "GeOnPaaS는 어떤 방식으로 데이터 표준을 마련하나요?", "output": "GeOnPaaS는 OGC 표준을 준수하여 데이터 표준을 마련합니다."}
+{"instruction": "GeOnPaaS는 어떤 공간정보 연산 기능을 제공하나요?", "output": "GeOnPaaS는 Contains, Within, Intersect 등의 2D 공간 연산 기능을 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 개발 환경을 제공하나요?", "output": "GeOnPaaS는 웹 기반 공간정보서비스 개발을 위한 JavaScript API 개발 환경을 제공합니다."}
+{"instruction": "GeOnPaaS의 지도 빌더는 어떤 기능을 제공하나요?", "output": "GeOnPaaS의 지도 빌더는 레이어 스타일 편집 및 관리, 주제도 설정 및 저장 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 앱 빌더는 어떤 기능을 제공하나요?", "output": "GeOnPaaS의 앱 빌더는 테마 생성 및 관리, 각종 테마 설정, 지도 기반 앱 생성 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 위젯 도구는 무엇을 포함하나요?", "output": "GeOnPaaS의 위젯 도구는 다양한 지도 관련 위젯 도구를 포함합니다."}
+{"instruction": "GeOnPaaS는 어떤 프로젝트에 참여했나요?", "output": "GeOnPaaS는 국토교통부의 K-Geo 플랫폼, LX의 국토정보플랫폼, 충북도의 스마트 공간정보 플랫폼 프로젝트에 참여했습니다."}
+{"instruction": "GeOnPaaS의 향후 계획은 무엇인가요?", "output": "GeOnPaaS는 앞으로 2~3년간 지속적으로 프로젝트를 수행하며 다양한 레퍼런스를 바탕으로 지속적인 공간정보 플랫폼 매출 확장을 계획하고 있습니다."}
+{"instruction": "GeOnPaaS의 REST API는 어떤 컴포넌트로 구성되나요?", "output": "GeOnPaaS의 REST API는 지오코딩, 서비스 발행, 공간분석, 좌표변환, 지도관리, 저작도구, 레이어그룹 등의 컴포넌트로 구성됩니다."}
+{"instruction": "GeOnPaaS의 공간업로드 및 다운로드 기능은 무엇을 포함하나요?", "output": "GeOnPaaS의 공간업로드 및 다운로드 기능은 레이어 관리, 지도/앱 콘텐츠 관리 기능을 포함합니다."}
+{"instruction": "GeOnPaaS의 주요 적용 실적은 무엇인가요?", "output": "GeOnPaaS는 국토교통부의 K-Geo 플랫폼, LX의 국토정보 플랫폼, 충북도의 스마트 공간정보 플랫폼 등에 적용되었습니다."}
+{"instruction": "GeOnPaaS의 공간정보 플랫폼은 어떤 기반으로 구축되나요?", "output": "GeOnPaaS의 공간정보 플랫폼은 디지털 시뮬레이션 분석과 3D 기반의 신산업 경쟁력을 확보하기 위해 구축됩니다."}
+{"instruction": "GeOnPaaS의 시스템 설치 절차는 어디에 설명되어 있나요?", "output": "GeOnPaaS의 시스템 설치 절차는 별도의 운영자 매뉴얼에 설명되어 있습니다."}
+{"instruction": "GeOnPaaS의 OGC 표준 서비스는 무엇인가요?", "output": "GeOnPaaS의 OGC 표준 서비스는 WMS, WFS, WMTS 등을 포함합니다."}
+{"instruction": "GeOnPaaS는 어떤 플랫폼 솔루션을 제공하나요?", "output": "GeOnPaaS는 공간정보 시스템 구축, 시스템 유지관리, 공간정보 솔루션 고도화, 공간정보 플랫폼 구축 등을 위한 플랫폼 솔루션을 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 기능 중 하나인 지도 제어 기능은 무엇을 포함하나요?", "output": "GeOnPaaS의 지도 제어 기능은 지도 생성, Zoom/Pan, 측정 등의 기능을 포함합니다."}
+{"instruction": "GeOnPaaS는 어떤 형태의 앱 빌더를 제공하나요?", "output": "GeOnPaaS는 테마 생성/관리, 각종 테마 설정, 지도 기반 앱 생성 기능을 제공하는 앱 빌더를 제공합니다."}
+{"instruction": "GeOnPaaS의 정보 융합 기능은 무엇을 포함하나요?", "output": "GeOnPaaS의 정보 융합 기능은 점, 선, 면, 정보창, WMS/WFS, KML 등의 정보를 지도와 융합하는 기능을 포함합니다."}
+{"instruction": "GeOnPaaS의 자동완성 기능은 무엇인가요?", "output": "GeOnPaaS의 자동완성 기능은 필요한 기능 선택을 통한 소스 자동 생성 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 지도 관리 기능은 무엇을 포함하나요?", "output": "GeOnPaaS의 지도 관리 기능은 레이어 스타일 관리, 지도 콘텐츠 관리 및 제어 기능을 포함합니다."}
+{"instruction": "GeOnPaaS의 사용자 데이터 업로드 기능은 어떤 용도로 사용되나요?", "output": "GeOnPaaS의 사용자 데이터 업로드 기능은 웹 기반 공간정보서비스 개발을 위한 데이터 업로드 용도로 사용됩니다."}
+{"instruction": "GeOnPaaS의 클라우드 기반 인프라는 어떤 장점을 가지고 있나요?", "output": "GeOnPaaS의 클라우드 기반 인프라는 효율적인 인프라 자원 및 데이터 관리·활용을 가능하게 합니다."}
+{"instruction": "GeOnPaaS의 최근 3개년 공간정보 플랫폼 수주 금액은 얼마인가요?", "output": "GeOnPaaS의 최근 3개년 공간정보 플랫폼 수주 금액은 2018년에 1,465억원, 2019년에 1,881억원, 2020년에 6,007억원입니다."}
+{"instruction": "GeOnPaaS의 디지털 트윈 국토 실현 정부 로드맵은 어떤 단계로 구성되어 있나요?", "output": "GeOnPaaS의 디지털 트윈 국토 실현 정부 로드맵은 구축, 고도화, 지능화의 단계로 구성되어 있습니다."}
+{"instruction": "GeOnPaaS의 디지털 트윈 국토 실현 정부 로드맵의 추진 전략은 무엇인가요?", "output": "GeOnPaaS의 디지털 트윈 국토 실현 정부 로드맵의 추진 전략은 표준 기반 데이터 및 플랫폼 구축, 트윈 국토 기술 개발 및 확산, 법 제도 개선 및 거버넌스 실현입니다."}
+{"instruction": "GeOnPaaS의 주요 중점 과제는 무엇인가요?", "output": "GeOnPaaS의 주요 중점 과제는 데이터 표준 마련 및 구축, 트윈 국토 플랫폼 구축, 트윈 국토 구축 활용 기술 개발, 트윈 국토 행정모델 확산, 제도적 기반 마련, 거버넌스 체계 구축입니다."}
+{"instruction": "GeOnPaaS 제품의 주요 제공 기능은 무엇인가요?", "output": "GeOnPaaS는 주요 기능으로 GeOn API, GeOn Builder, GeOn Client, GeOn DevCenter를 제공합니다."}
+{"instruction": "GeOnPaaS의 주요 특장점은 무엇인가요?", "output": "GeOnPaaS는 전자정부 표준 프레임워크에 오픈GIS 기술을 접목한 공간정보 시스템 개발 프레임워크로, 고급 GIS 사용자를 위해 지도 기반의 앱을 UI 기반으로 제작할 수 있는 환경을 제공하며, 웹 기반 공간정보서비스 개발을 위한 JavaScript API도 지원합니다."}
+{"instruction": "GeOnPaaS는 어떤 API를 제공하나요?", "output": "GeOnPaaS는 REST API를 통해 공간정보 서비스 제공을 위한 다양한 기능을 지원합니다."}
+{"instruction": "GeOn Builder의 주요 기능은 무엇인가요?", "output": "GeOn Builder는 지도 빌더와 앱 빌더 기능을 포함하여 레이어 관리, 주제도 설정, 테마 생성 및 각종 위젯 도구를 제공합니다. 지도 빌더 기능으로는 레이어 스타일 편집 및 관리 기능을, 앱 빌더 기능으로는 테마 생성/관리 및 지도 기반 앱 생성 기능을 지원합니다."}
+{"instruction": "GeOn Client의 주요 기능은 무엇인가요?", "output": "GeOn Client는 지도 제어, 지도 관리, 위젯 관리 및 정보 융합 기능을 제공합니다. 지도 제어 기능으로는 지도 생성, Zoom/Pan, 측정 등의 기능을 포함하며, 지도 관리 기능으로는 레이어 및 지도 콘텐츠 관련 관리 및 제어 기능을 제공합니다. 위젯 관리 기능은 즉시 사용 가능한 기능을 아이콘으로 제공하여 쉽게 켜거나 끌 수 있습니다."}
+{"instruction": "GeOn DevCenter의 주요 기능은 무엇인가요?", "output": "GeOn DevCenter는 API 사양문서, 개발 가이드, 지도 샘플, 자동완성 기능 등을 제공하여 개발의 편의성을 높입니다. API 사양문서는 제공하는 API의 설명, 입력 파라미터 설명, 예외처리 등을 포함하고, 개발 가이드는 REST 및 JavaScript API를 활용한 지도 앱 개발에 대한 상세 가이드를 제공합니다. 지도 샘플은 주요 지도 앱에 대한 샘플 개발 소스를, 자동완성 기능은 필요한 기능 선택을 통한 소스 자동 생성을 지원합니다."}
+{"instruction": "GeOnPaaS는 어떤 오픈소스를 활용하나요?", "output": "GeOnPaaS는 GeoServer, PostgreSQL 등 검증된 오픈소스를 활용합니다."}
+{"instruction": "GeOnPaaS의 시스템 구성 요소는 무엇인가요?", "output": "GeOnPaaS는 GeOn API 서버, GeOn Builder, GeOn Client, GeOn DevCenter 등으로 구성됩니다."}
+{"instruction": "GeOnPaaS의 클라우드 기반 인프라는 무엇인가요?", "output": "GeOnPaaS는 클라우드 기반 인프라로 GeoServer와 PostgreSQL + PostGIS를 사용합니다."}
+{"instruction": "GeOnPaaS의 데이터 표준은 무엇인가요?", "output": "GeOnPaaS는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 준수합니다."}
+{"instruction": "GeOnPaaS는 어떤 웹 표준을 준수하나요?", "output": "GeOnPaaS는 웹 표준 EC6을 준수합니다."}
+{"instruction": "GeOnPaaS의 주요 제공 서비스는 무엇인가요?", "output": "GeOnPaaS는 공간분석, 공간연산, 공간정보 관리, 검색 등의 서비스를 제공합니다."}
+{"instruction": "GeOnPaaS의 공간분석 기능은 무엇인가요?", "output": "GeOnPaaS는 공간 패턴, 데이터 요약/관리, 근접도 분석, 위치 찾기 분석 등의 공간분석 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 공간연산 기능은 무엇인가요?", "output": "GeOnPaaS는 Contains, Within, Intersect 등의 2D 공간 연산 기능을 지원합니다."}
+{"instruction": "GeOnPaaS의 공간정보 관리 기능은 무엇인가요?", "output": "GeOnPaaS는 공간 업로드, 다운로드, 레이어 관리, 지도/앱 콘텐츠 관리 등의 기능을 제공합니다."}
+{"instruction": "GeOnPaaS의 검색 기능은 무엇인가요?", "output": "GeOnPaaS는 지오코딩, POI, 속성 검색 등의 기능을 지원합니다."}
+{"instruction": "GeOnPaaS의 시스템 요구사항은 무엇인가요?", "output": "GeOnPaaS의 시스템 요구사항은 x86 PC 기반의 Linux 계열 운영체제와 GeoServer, PostgreSQL 등의 오픈소스를 사용합니다."}
+{"instruction": "GeOnPaaS의 주요 대상 고객은 누구인가요?", "output": "GeOnPaaS의 주요 대상 고객은 정부기관, 기업, 일반 사용자입니다."}
+{"instruction": "GeOnPaaS는 어떤 지도 서비스를 제공하나요?", "output": "GeOnPaaS는 WMS, WFS, WMTS 등의 OGC 표준 서비스와 관련된 지도 서비스를 제공합니다."}
+{"instruction": "GeOnPaaS의 유지보수는 어떻게 이루어지나요?", "output": "GeOnPaaS의 유지보수는 별도의 운영자 매뉴얼을 통해 지원됩니다."}
+{"instruction": "GeOnPaaS의 데이터 백업 및 복구 기능은 무엇인가요?", "output": "GeOnPaaS는 사용자 매뉴얼을 통해 데이터 백업 및 복구 절차를 제공합니다."}
+{"instruction": "GeOnPaaS는 어떤 개발 언어를 사용하나요?", "output": "GeOnPaaS는 JavaScript를 사용하여 웹 기반 공간정보서비스를 개발합니다."}
+{"instruction": "GeOnPaaS의 설치 절차는 어떻게 확인할 수 있나요?", "output": "GeOnPaaS의 설치 절차는 운영자 매뉴얼을 통해 확인할 수 있습니다."}
+{"instruction": "GeOnPaaS의 API 문서는 무엇인가요?", "output": "GeOnPaaS의 API 문서는 각종 API에 대해 웹 UI 기반의 문서 설명을 제공합니다."}
+{"instruction": "GeOnPaaS의 개발 환경은 어떻게 제공되나요?", "output": "GeOnPaaS는 웹 기반 공간정보서비스 개발을 위한 JavaScript API를 제공하여 개발 환경을 지원합니다."}
+{"instruction": "GeOnPaaS의 주요 활용 사례는 무엇인가요?", "output": "GeOnPaaS는 국토교통부의 K-Geo 플랫폼, LX의 국토정보플랫폼, 충북도의 스마트 공간정보플랫폼 등에 활용되었습니다."}
+{"instruction": "GeOnPaaS의 향후 계획은 무엇인가요?", "output": "GeOnPaaS는 향후 2~3개년간 지속적으로 수행될 예정이며, 다양한 레퍼런스를 바탕으로 이후에도 지속적인 공간정보 플랫폼 매출 확장을 전망하고 있습니다."}
+{"instruction": "GeOn API의 주요 기능은 무엇인가요?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 제공하며, 공간분석, 공간연산, 공간정보 관리, 검색 기능을 지원합니다."}
+{"instruction": "GeOn API는 어떤 표준을 준수하나요?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS와 웹 표준 EC6을 준수합니다."}
+{"instruction": "GeOn API는 어떤 종류의 공간분석을 제공하나요?", "output": "GeOn API는 공간 패턴 분석, 데이터 요약/관리, 근접도 분석, 위치 찾기 분석 등의 공간분석 기능을 제공합니다."}
+{"instruction": "GeOn API의 공간연산 기능은 무엇인가요?", "output": "GeOn API는 Contains, Within, Intersect 등의 2D 공간 연산 기능을 제공합니다."}
+{"instruction": "GeOn API의 공간정보 관리 기능은 무엇인가요?", "output": "GeOn API는 공간 업로드, 다운로드, 레이어 관리, 지도/앱 콘텐츠 관리 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 검색 기능은 무엇인가요?", "output": "GeOn API는 지오코딩, POI, 속성 검색 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 레이어 관리 기능은 무엇인가요?", "output": "GeOn API는 레이어 스타일 편집 및 관리 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 개발 언어를 사용하나요?", "output": "GeOn API는 JavaScript를 사용하여 웹 기반 공간정보 서비스를 개발합니다."}
+{"instruction": "GeOn API의 설치 절차는 어디서 확인할 수 있나요?", "output": "GeOn API의 설치 절차는 운영자 매뉴얼을 통해 확인할 수 있습니다."}
+{"instruction": "GeOn API의 데이터 백업 및 복구 기능은 무엇인가요?", "output": "GeOn API는 사용자 매뉴얼을 통해 데이터 백업 및 복구 절차를 제공합니다."}
+{"instruction": "GeOn API의 유지보수는 어떻게 이루어지나요?", "output": "GeOn API의 유지보수는 별도의 운영자 매뉴얼을 통해 지원됩니다."}
+{"instruction": "GeOn API는 어떤 클라우드 기반 인프라를 사용하나요?", "output": "GeOn API는 GeoServer와 PostgreSQL + PostGIS를 포함한 클라우드 기반 인프라를 사용합니다."}
+{"instruction": "GeOn API의 주요 제공 서비스는 무엇인가요?", "output": "GeOn API는 공간분석, 공간연산, 공간정보 관리, 검색 등의 서비스를 제공합니다."}
+{"instruction": "GeOn API의 공간정보 관리 기능은 무엇인가요?", "output": "GeOn API는 공간 업로드, 다운로드, 레이어 관리, 지도/앱 콘텐츠 관리 등의 기능을 제공합니다."}
+{"instruction": "GeOn API의 개발 환경은 어떻게 제공되나요?", "output": "GeOn API는 웹 기반 공간정보 서비스 개발을 위한 JavaScript API를 제공하여 개발 환경을 지원합니다."}
+{"instruction": "GeOn API의 API 문서는 무엇인가요?", "output": "GeOn API의 API 문서는 각종 API에 대해 웹 UI 기반의 문서 설명을 제공합니다."}
+{"instruction": "GeOn API는 어떤 오픈소스를 활용하나요?", "output": "GeOn API는 GeoServer, PostgreSQL 등 검증된 오픈소스를 활용합니다."}
+{"instruction": "GeOn API의 시스템 요구사항은 무엇인가요?", "output": "GeOn API의 시스템 요구사항은 x86 PC 기반의 Linux 계열 운영체제와 GeoServer, PostgreSQL 등의 오픈소스를 사용합니다."}
+{"instruction": "GeOn API의 주요 대상 고객은 누구인가요?", "output": "GeOn API의 주요 대상 고객은 정부기관, 기업, 일반 사용자입니다."}
+{"instruction": "GeOn API는 어떤 지도 서비스를 제공하나요?", "output": "GeOn API는 WMS, WFS, WMTS 등의 OGC 표준 서비스와 관련된 지도 서비스를 제공합니다."}
+{"instruction": "GeOn API의 데이터 표준은 무엇인가요?", "output": "GeOn API는 OGC 표준 서비스인 WMS, WFS, WMTS 등을 준수합니다."}
+{"instruction": "GeOn API의 설치 절차는 어떻게 확인할 수 있나요?", "output": "GeOn API의 설치 절차는 운영자 매뉴얼을 통해 확인할 수 있습니다."}
+{"instruction": "GeOn API의 개발 가이드는 무엇인가요?", "output": "GeOn API의 개발 가이드는 REST 및 JavaScript API를 활용한 지도 앱 개발에 대한 상세 가이드를 제공합니다."}
+{"instruction": "GeOn API의 지도 샘플은 무엇인가요?", "output": "GeOn API의 지도 샘플은 주요 지도 앱에 대한 샘플 개발 소스를 제공합니다."}
+{"instruction": "GeOn API의 자동완성 기능은 무엇인가요?", "output": "GeOn API의 자동완성 기능은 필요한 기능 선택을 통한 소스 자동 생성을 제공합니다."}
+{"instruction": "GeOn API는 어떤 환경을 제공하나요?", "output": "GeOn API는 스마트시티, 디지털 트윈, 메타버스 생태계 내에서 솔루션을 통해 정보를 손쉽게 소비할 수 있는 환경을 제공합니다."}
+{"instruction": "GeOn API의 주요 활용 사례는 무엇인가요?", "output": "GeOn API는 국토교통부의 K-Geo 플랫폼, LX의 국토정보 플랫폼, 충북도의 스마트 공간정보 플랫폼 등에 활용되었습니다."}
+{"instruction": "GeOn API의 향후 계획은 무엇인가요?", "output": "GeOn API는 향후 2~3개년간 지속적으로 수행 예정이며, 다양한 레퍼런스를 바탕으로 이후에도 지속적인 공간정보 플랫폼 매출 확장을 전망하고 있습니다."}
+{"instruction": "GeOn API는 어떤 클라우드 기반 인프라를 사용하나요?", "output": "GeOn API는 클라우드 기반 인프라로 GeoServer와 PostgreSQL + PostGIS를 사용합니다."}
+{"instruction": "GeOn API의 유지보수는 어떻게 이루어지나요?", "output": "GeOn API의 유지보수는 별도의 운영자 매뉴얼을 통해 지원됩니다."}
+{"instruction": "GeOn API의 성능은 어떻게 최적화되었나요?", "output": "GeOn API는 고성능 데이터 처리와 효율적인 자원 관리를 위해 최적화된 아키텍처를 채택하고 있습니다."}
+{"instruction": "GeOn API의 보안 기능은 무엇인가요?", "output": "GeOn API는 데이터 암호화, 인증 및 권한 관리를 통해 높은 수준의 보안을 제공합니다."}
+{"instruction": "GeOn API는 어떤 데이터 형식을 지원하나요?", "output": "GeOn API는 GeoJSON, KML, GML 등의 다양한 공간 데이터 형식을 지원합니다."}
+{"instruction": "GeOn API는 어떤 프로토콜을 사용하나요?", "output": "GeOn API는 HTTP/HTTPS 프로토콜을 사용하여 데이터 통신을 수행합니다."}
+{"instruction": "GeOn API의 요청 한도는 어떻게 설정되나요?", "output": "GeOn API는 사용자 계정별로 일일 요청 한도를 설정하여 서비스 안정성을 유지합니다."}
+{"instruction": "GeOn API는 어떤 로깅 및 모니터링 기능을 제공하나요?", "output": "GeOn API는 실시간 로그 기록 및 모니터링 기능을 제공하여 서비스 운영 상태를 점검할 수 있습니다."}
+{"instruction": "GeOn API의 에러 처리 방식은 무엇인가요?", "output": "GeOn API는 표준 HTTP 상태 코드와 자세한 에러 메시지를 통해 에러 원인을 명확히 전달합니다."}
+{"instruction": "GeOn API는 어떤 캐싱 전략을 사용하나요?", "output": "GeOn API는 클라이언트 및 서버 측 캐싱을 통해 응답 시간을 단축하고 트래픽 부하를 줄입니다."}
+{"instruction": "GeOn API의 버전 관리 정책은 무엇인가요?", "output": "GeOn API는 버전 관리를 통해 하위 호환성을 유지하며, 새로운 기능과 개선 사항을 지속적으로 추가합니다."}
+{"instruction": "GeOn API의 데이터 갱신 주기는 어떻게 설정되나요?", "output": "GeOn API는 실시간 데이터 갱신을 지원하며, 정기적인 데이터 업데이트 주기를 설정할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 형태의 문서화를 제공하나요?", "output": "GeOn API는 상세한 개발자 문서, 예제 코드 및 API 참조 문서를 제공합니다."}
+{"instruction": "GeOn API는 어떤 종류의 인증 방식을 지원하나요?", "output": "GeOn API는 OAuth 2.0, API Key 등의 다양한 인증 방식을 지원합니다."}
+{"instruction": "GeOn API는 데이터 압축을 지원하나요?", "output": "GeOn API는 GZIP을 통한 데이터 압축을 지원하여 전송 효율성을 높입니다."}
+{"instruction": "GeOn API는 사용자 피드백을 어떻게 처리하나요?", "output": "GeOn API는 사용자 피드백을 수집하고 분석하여 서비스 개선에 반영합니다."}
+{"instruction": "GeOn API는 어떤 유형의 데이터 분석을 지원하나요?", "output": "GeOn API는 공간 분석, 시계열 분석, 통계 분석 등의 다양한 데이터 분석 기능을 지원합니다."}
+{"instruction": "GeOn API는 어떤 데이터 변환 기능을 제공하나요?", "output": "GeOn API는 좌표 변환, 형식 변환 등의 데이터 변환 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 식으로 확장성을 제공하나요?", "output": "GeOn API는 모듈화된 설계를 통해 다양한 플러그인과 확장 기능을 쉽게 통합할 수 있습니다."}
+{"instruction": "GeOn API는 데이터 시각화를 지원하나요?", "output": "GeOn API는 다양한 데이터 시각화 도구와 통합되어 사용자가 데이터를 쉽게 분석할 수 있도록 지원합니다."}
+{"instruction": "GeOn API는 어떤 데이터 통합 기능을 제공하나요?", "output": "GeOn API는 다양한 외부 데이터 소스와의 통합을 지원하여 포괄적인 데이터 분석을 가능하게 합니다."}
+{"instruction": "GeOn API는 어떤 식으로 성능을 모니터링하나요?", "output": "GeOn API는 성능 모니터링 도구를 통해 실시간으로 시스템 상태와 성능 지표를 확인할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 종류의 개발자 지원을 제공하나요?", "output": "GeOn API는 기술 지원, 포럼, 튜토리얼 등의 다양한 개발자 지원 서비스를 제공합니다."}
+{"instruction": "GeOn API의 주요 사용 사례는 무엇인가요?", "output": "GeOn API는 스마트 시티 구축, 환경 모니터링, 위치 기반 서비스 등 다양한 분야에서 활용됩니다."}
+{"instruction": "GeOn API는 어떤 플랫폼에서 사용할 수 있나요?", "output": "GeOn API는 웹, 모바일, 데스크탑 등 다양한 플랫폼에서 사용할 수 있습니다."}
+{"instruction": "GeOn API의 주요 파트너는 누구인가요?", "output": "GeOn API는 여러 정부 기관, 기업 및 연구 기관과 협력하고 있습니다."}
+{"instruction": "GeOn API는 어떤 식으로 데이터를 수집하나요?", "output": "GeOn API는 센서, 위성, 사용자 입력 등 다양한 방법으로 데이터를 수집합니다."}
+{"instruction": "GeOn API는 어떤 개발 도구와 호환되나요?", "output": "GeOn API는 다양한 IDE와 호환되며, Eclipse, Visual Studio Code 등에서 사용할 수 있습니다."}
+{"instruction": "GeOn API는 어떤 형식의 출력을 지원하나요?", "output": "GeOn API는 JSON, XML 등 다양한 출력 형식을 지원합니다."}
+{"instruction": "GeOn API는 데이터 필터링 기능을 제공하나요?", "output": "GeOn API는 사용자 정의 필터를 통해 필요한 데이터만 추출할 수 있는 필터링 기능을 제공합니다."}
+{"instruction": "GeOn API는 어떤 식으로 배포되나요?", "output": "GeOn API는 Docker 컨테이너, VM 이미지 등 다양한 방식으로 배포될 수 있습니다."}
+{"instruction": "GeOn API는 데이터 시뮬레이션 기능을 제공하나요?", "output": "GeOn API는 가상 데이터를 생성하여 시뮬레이션 분석을 할 수 있는 기능을 제공합니다."}
+{"instruction": "GeOn API의 성능은 어떻게 최적화되었나요?", "output": "GeOn API는 고성능 데이터 처리와 효율적인 자원 관리를 위해 최적화된 아키텍처를 채택하고 있습니다."}
+{"instruction": "GeOn API의 보안 기능은 무엇인가요?", "output": "GeOn API는 데이터 암호화, 인증 및 권한 관리를 통해 높은 수준의 보안을 제공합니다."}
+{"instruction": "GeOn API는 어떤 데이터 형식을 지원하나요?", "output": "GeOn API는 GeoJSON, KML, GML 등의 다양한 공간 데이터 형식을 지원합니다."}
